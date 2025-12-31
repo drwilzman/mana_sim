@@ -1,38 +1,41 @@
 # Mana Simulator for MTG Commander
 
-Simulate mana screw, mana flood, and playable hands for Magic: The Gathering Commander decks.  
-This project lets you test your deck's mana reliability by running Monte Carlo simulations over multiple turns.
+Simulate **mana screw**, **mana flood**, and playable hands for Magic: The Gathering Commander decks. Test your deck's mana reliability by running Monte Carlo simulations over multiple turns.
 
 ---
 
 ## Features
 
 - Parse decklists from text files into structured JSON.
-- Simulate hundreds or thousands of games to calculate **mana screw**, **mana flood**, and playable turns.
+- Simulate hundreds or thousands of games to calculate:
+  - **Mana screw** – no spells playable
+  - **Mana flood** – too much unused mana
+  - **Playable hands** – playable mana on curve
 - Track colored and generic mana requirements.
-- Works with singleton rules for Commander decks.
-- Generate example graphs of simulation results (Python optional).
+- Fully compatible with **Commander singleton rules**.
+- Optional Python support for visualization and analysis.
 
 ---
 
 ## Folder Structure
+
 mana_sim/
-├─ decks/ # Deck JSON files (auto-generated or custom)
-├─ output/ # Example graphs & simulation outputs
-├─ src/ # Rust source files
-│ ├─ deck.rs
-│ ├─ lib.rs
-│ ├─ mana.rs
-│ ├─ sim.rs
-│ └─ stats.rs
-├─ target/ # Rust build artifacts (auto)
-├─ decklist.txt # Example decklist (text format)
-├─ demo.py # Demo script to parse & run simulations
-├─ parse_deck.py # Python parser: decklist -> JSON
-├─ README.md # Project documentation
-├─ Cargo.toml # Rust package manifest
+├─ decks/           # Deck JSON files (auto-generated or custom)
+├─ output/          # Simulation outputs and graphs
+├─ src/             # Rust source files
+│  ├─ deck.rs
+│  ├─ lib.rs
+│  ├─ mana.rs
+│  ├─ sim.rs
+│  └─ stats.rs
+├─ target/          # Rust build artifacts
+├─ decklist.txt     # Example decklist (text format)
+├─ demo.py          # Demo script to parse & run simulations
+├─ parse_deck.py    # Python parser: decklist -> JSON
+├─ README.md        # Project documentation
+├─ Cargo.toml       # Rust package manifest
 ├─ Cargo.lock
-├─ pyproject.toml # Optional Python project file
+└─ pyproject.toml   # Optional Python project file
 
 ---
 
@@ -40,49 +43,55 @@ mana_sim/
 
 ### Requirements
 
-- Rust ≥ 1.70  
-- Python 3.x (for `parse_deck.py`)  
-- Python packages: `requests` (`pip install requests`)
+- Rust ≥ 1.70
+- Python 3.x (for `parse_deck.py`)
+- Python package: `requests` (`pip install requests`)
 
 ---
 
-### Step 1: Convert Decklist to JSON
+## Usage
 
-Example text decklist `decklist.txt`:
+### Convert Decklist to JSON
 
-Run parser:
+Given a text decklist (`decklist.txt`), run:
 
-```bash
-python parse_deck.py \
-  --input decklist.txt \
-  --output decks/vampire.json \
-  --commander "Queen Marchesa"
-```
+python parse_deck.py --input decklist.txt --output decks/vampire.json --commander "Queen Marchesa"
 
-Converts decklist into JSON with mana costs, types, and counts.
+This converts the decklist into structured JSON with mana costs, card types, and counts. Card metadata is automatically fetched from the Scryfall API.
 
-Auto-fetches card info from Scryfall API.
+---
 
-Step 2: Run Mana Simulation
+### Run Mana Simulation
+
 cargo run --release --example run_sim decks/vampire.json
 
+Example output:
 
-Simulation outputs per turn:
+Turn 1: Screw 0.12, Flood 0.03, OK 0.85  
+Turn 2: Screw 0.10, Flood 0.05, OK 0.85  
+...  
+Turn 10: Screw 0.02, Flood 0.15, OK 0.83  
 
-Turn 1: Screw 0.12, Flood 0.03, OK 0.85
-Turn 2: Screw 0.10, Flood 0.05, OK 0.85
-...
-Turn 10: Screw 0.02, Flood 0.15, OK 0.83
+Definitions:
+- Screw: No spells playable
+- Flood: Excess unused mana
+- OK: At least one reasonable play available
 
+---
 
-Screw: No spells playable
+## Configuration
 
-Flood: Too much unused mana
+Simulation behavior can be adjusted in `run_sim.rs`:
+- Number of simulations (`sims`)
+- Number of turns (`turns`)
 
-OK: Playable hand
+Optional Python scripts may be added to generate:
+- Turn-by-turn screw / flood / OK plots
+- Deck comparison charts
 
-Optional: Adjust Simulation Parameters
+All generated artifacts can be written to the `output/` directory.
 
+<<<<<<< HEAD
 
 You can modify run_sim.rs to change:
 
@@ -91,9 +100,21 @@ You can modify run_sim.rs to change:
 *Number of turns (turns)
 
 *Example Graphs
+=======
+---
 
-Python scripts can be added to generate:
+## Contributing
 
+- Fork the repository
+- Make your changes
+- Submit a pull request
+
+Please respect Commander legality and singleton rules when modifying deck logic.
+>>>>>>> 02739f1 (WIP: mana simulator updates)
+
+---
+
+<<<<<<< HEAD
 *Turn-by-turn screw/flood/ok graphs
 
 *Deck comparison charts
@@ -106,4 +127,9 @@ License:
 
 MIT License
 Feel free to use, modify, and share!
+=======
+## License
+
+MIT License — free to use, modify, and share
+>>>>>>> 02739f1 (WIP: mana simulator updates)
 
