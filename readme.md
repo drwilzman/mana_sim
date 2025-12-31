@@ -83,33 +83,26 @@ OK: Playable hand
 
 Optional: Adjust Simulation Parameters
 
+
 You can modify run_sim.rs to change:
 
-Number of simulations (sims)
+*Number of simulations (sims)
 
-Number of turns (turns)
+*Number of turns (turns)
 
-Example Graphs
+*Example Graphs
 
 Python scripts can be added to generate:
 
-Turn-by-turn screw/flood/ok graphs
+*Turn-by-turn screw/flood/ok graphs
 
-Deck comparison charts
+*Deck comparison charts
 
-Save outputs to the output/ folder.
-
-Contributing
-
-Fork the repository
-
-Make your changes
-
-Submit a pull request
+*Save outputs to the output/ folder.
 
 Please keep singleton rules and Commander legality in mind when adding cards.
 
-License
+License:
 
 MIT License
 Feel free to use, modify, and share!
