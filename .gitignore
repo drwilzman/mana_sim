@@ -1,0 +1,11 @@
+# Rust build files
+/target/
+/**/*.rs.bk
+**/*.lock
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS-specific
+.DS_Store
