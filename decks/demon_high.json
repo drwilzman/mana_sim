@@ -1,0 +1,168 @@
+{
+  "name": "deck",
+  "cards": [
+    {
+      "type": "Commander",
+      "generic": 4,
+      "pips": [
+        "B",
+        "B"
+      ],
+      "count": 1
+    },
+    {
+      "type": "Land",
+      "produces": [
+        "B"
+      ],
+      "count": 3
+    },
+    {
+      "type": "Land",
+      "produces": [
+        "B"
+      ],
+      "count": 56
+    },
+    {
+      "type": "Ramp",
+      "generic": 3,
+      "produces": [],
+      "count": 2
+    },
+    {
+      "type": "Ramp",
+      "generic": 4,
+      "produces": [],
+      "count": 1
+    },
+    {
+      "type": "Ramp",
+      "generic": 5,
+      "produces": [],
+      "count": 1
+    },
+    {
+      "type": "Spell",
+      "generic": 0,
+      "pips": [
+        "B"
+      ],
+      "count": 8
+    },
+    {
+      "type": "Spell",
+      "generic": 0,
+      "pips": [
+        "B",
+        "B"
+      ],
+      "count": 1
+    },
+    {
+      "type": "Spell",
+      "generic": 0,
+      "pips": [
+        "B",
+        "B",
+        "B"
+      ],
+      "count": 1
+    },
+    {
+      "type": "Spell",
+      "generic": 1,
+      "pips": [],
+      "count": 3
+    },
+    {
+      "type": "Spell",
+      "generic": 1,
+      "pips": [
+        "B"
+      ],
+      "count": 4
+    },
+    {
+      "type": "Spell",
+      "generic": 1,
+      "pips": [
+        "B",
+        "B"
+      ],
+      "count": 3
+    },
+    {
+      "type": "Spell",
+      "generic": 2,
+      "pips": [],
+      "count": 1
+    },
+    {
+      "type": "Spell",
+      "generic": 2,
+      "pips": [
+        "B"
+      ],
+      "count": 2
+    },
+    {
+      "type": "Spell",
+      "generic": 2,
+      "pips": [
+        "B",
+        "B"
+      ],
+      "count": 3
+    },
+    {
+      "type": "Spell",
+      "generic": 3,
+      "pips": [
+        "B"
+      ],
+      "count": 2
+    },
+    {
+      "type": "Spell",
+      "generic": 3,
+      "pips": [
+        "B",
+        "B"
+      ],
+      "count": 4
+    },
+    {
+      "type": "Spell",
+      "generic": 4,
+      "pips": [],
+      "count": 1
+    },
+    {
+      "type": "Spell",
+      "generic": 4,
+      "pips": [
+        "B",
+        "B"
+      ],
+      "count": 1
+    },
+    {
+      "type": "Spell",
+      "generic": 5,
+      "pips": [
+        "B",
+        "B"
+      ],
+      "count": 1
+    },
+    {
+      "type": "Spell",
+      "generic": 9,
+      "pips": [
+        "B"
+      ],
+      "count": 1
+    }
+  ]
+}

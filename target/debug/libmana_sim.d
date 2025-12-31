@@ -1,0 +1,1 @@
+/home/andrew/projects/mana_sim/target/debug/libmana_sim.so: /home/andrew/projects/mana_sim/src/deck.rs /home/andrew/projects/mana_sim/src/lib.rs /home/andrew/projects/mana_sim/src/mana.rs /home/andrew/projects/mana_sim/src/sim.rs /home/andrew/projects/mana_sim/src/stats.rs
