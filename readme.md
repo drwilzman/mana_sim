@@ -14,7 +14,7 @@ Analyze **mana screw**, **mana flood**, curve reliability, and **optimize land c
 - Supports mono-color and multi-color commanders
 - Produces plots and ranked land configurations
 
-Designed for **real Commander decks**, not goldfish math.
+Designed for **real Commander decks**
 
 ---
 
