@@ -1,81 +1,57 @@
 # Mana Simulator for MTG Commander
 
-Simulate **mana screw**, **mana flood**, and playable hands for Magic: The Gathering Commander decks. Test your deck's mana reliability by running Monte Carlo simulations over multiple turns.
+A **Monte Carlo mana simulator** for Magic: The Gathering **Commander (EDH)** decks.  
+Analyze **mana screw**, **mana flood**, curve reliability, and **optimize land counts and color ratios** using a Python → Rust simulation pipeline.
 
 ---
 
-## Features
+## What This Tool Does
 
-- Parse decklists from text files into structured JSON.
-- Simulate hundreds or thousands of games to calculate:
-  - **Mana screw** – no spells playable
-  - **Mana flood** – too much unused mana
-  - **Playable hands** – playable mana on curve
-- Track colored and generic mana requirements.
-- Fully compatible with **Commander singleton rules**.
-- Optional Python support for visualization and analysis.
+- Converts human-readable decklists into structured JSON
+- Runs high-volume Monte Carlo simulations in Rust
+- Evaluates mana stability across multiple turns
+- Optimizes **land counts and color distributions**
+- Supports mono-color and multi-color commanders
+- Produces plots and ranked land configurations
 
----
-
-## Folder Structure
-
-mana_sim/
-├─ decks/           # Deck JSON files (auto-generated or custom)
-├─ output/          # Simulation outputs and graphs
-├─ src/             # Rust source files
-│  ├─ deck.rs
-│  ├─ lib.rs
-│  ├─ mana.rs
-│  ├─ sim.rs
-│  └─ stats.rs
-├─ target/          # Rust build artifacts
-├─ decklist.txt     # Example decklist (text format)
-├─ demo.py          # Demo script to parse & run simulations
-├─ parse_deck.py    # Python parser: decklist -> JSON
-├─ README.md        # Project documentation
-├─ Cargo.toml       # Rust package manifest
-├─ Cargo.lock
-└─ pyproject.toml   # Optional Python project file
+Designed for **real Commander decks**, not goldfish math.
 
 ---
 
-## Getting Started
+## Core Features
 
-### Requirements
+### Mana Simulation
+- Simulates thousands of games per configuration
+- Tracks per-turn probabilities of:
+  - **OK** (playable mana)
+  - **Mana screw**
+  - **Mana flood**
+- Accounts for:
+  - Colored vs generic costs
+  - Ramp sources
+  - Commander color identity
+  - Singleton rules
 
-- Rust ≥ 1.70
-- Python 3.x (for `parse_deck.py`)
-- Python package: `requests` (`pip install requests`)
+### Land Optimization (`--test-lands`)
+- Automatically generates land variants
+- Adjusts:
+  - Total land count
+  - Color ratios (W/U/B/R/G)
+- Enforces **exactly 99 cards excluding commander**
+- Ranks configurations by mana performance
+- Works for:
+  - Mono-color decks
+  - Multi-color commanders
 
----
+### Optional Swap Testing (`--test-swaps`)
+- Tests MAYBE cards against main-deck cards
+- Scores replacements by mana performance impact
 
-## Usage
-
-### Convert Decklist to JSON
-
-Given a text decklist (`decklist.txt`), run:
-
-python parse_deck.py --input decklist.txt --output decks/vampire.json --commander "Queen Marchesa"
-
-This converts the decklist into structured JSON with mana costs, card types, and counts. Card metadata is automatically fetched from the Scryfall API.
-
----
-
-### Run Mana Simulation
-
-cargo run --release --example run_sim decks/vampire.json
-
-Example output:
-
-Turn 1: Screw 0.12, Flood 0.03, OK 0.85  
-Turn 2: Screw 0.10, Flood 0.05, OK 0.85  
-...  
-Turn 10: Screw 0.02, Flood 0.15, OK 0.83  
-
-Definitions:
-- Screw: No spells playable
-- Flood: Excess unused mana
-- OK: At least one reasonable play available
+### Visualization
+- Turn-by-turn plots:
+  - OK / Screw / Flood
+  - Cumulative OK probability
+- Output saved automatically to `output/`
 
 ---
 
