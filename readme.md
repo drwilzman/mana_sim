@@ -91,16 +91,6 @@ Optional Python scripts may be added to generate:
 
 All generated artifacts can be written to the `output/` directory.
 
-<<<<<<< HEAD
-
-You can modify run_sim.rs to change:
-
-*Number of simulations (sims)
-
-*Number of turns (turns)
-
-*Example Graphs
-=======
 ---
 
 ## Contributing
@@ -110,26 +100,10 @@ You can modify run_sim.rs to change:
 - Submit a pull request
 
 Please respect Commander legality and singleton rules when modifying deck logic.
->>>>>>> 02739f1 (WIP: mana simulator updates)
 
 ---
 
-<<<<<<< HEAD
-*Turn-by-turn screw/flood/ok graphs
-
-*Deck comparison charts
-
-*Save outputs to the output/ folder.
-
-Please keep singleton rules and Commander legality in mind when adding cards.
-
-License:
-
-MIT License
-Feel free to use, modify, and share!
-=======
 ## License
 
 MIT License — free to use, modify, and share
->>>>>>> 02739f1 (WIP: mana simulator updates)
 
