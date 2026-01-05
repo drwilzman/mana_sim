@@ -1,85 +1,58 @@
-# Mana Simulator for MTG Commander
+# EDH Deck Analyzer
 
-A **Monte Carlo mana simulator** for Magic: The Gathering **Commander (EDH)** decks.  
-Analyze **mana screw**, **mana flood**, curve reliability, and **optimize land counts and color ratios** using a Python → Rust simulation pipeline.
-
----
-
-## What This Tool Does
-
-- Converts human-readable decklists into structured JSON
-- Runs high-volume Monte Carlo simulations in Rust
-- Evaluates mana stability across multiple turns
-- Optimizes **land counts and color distributions**
-- Supports mono-color and multi-color commanders
-- Produces plots and ranked land configurations
-
-Designed for **real Commander decks**, not goldfish math.
+A Python toolkit for ingesting, encoding, and simulating Magic: The Gathering EDH/Commander decks. Combines deck parsing, mechanical feature extraction, and statistical simulations to evaluate deck performance and probability outcomes.
 
 ---
 
-## Core Features
+## Features
 
-### Mana Simulation
-- Simulates thousands of games per configuration
-- Tracks per-turn probabilities of:
-  - **OK** (playable mana)
-  - **Mana screw**
-  - **Mana flood**
-- Accounts for:
-  - Colored vs generic costs
-  - Ramp sources
-  - Commander color identity
-  - Singleton rules
+### 1. Deck Encoder
 
-### Land Optimization (`--test-lands`)
-- Automatically generates land variants
-- Adjusts:
-  - Total land count
-  - Color ratios (W/U/B/R/G)
-- Enforces **exactly 99 cards excluding commander**
-- Ranks configurations by mana performance
-- Works for:
-  - Mono-color decks
-  - Multi-color commanders
+- **Deck Ingestion**
+  - Parses EDH decklists from plain text.
+  - Stops at `maybe` sections; optional cards are not included in the main analysis.
 
-### Optional Swap Testing (`--test-swaps`)
-- Tests MAYBE cards against main-deck cards
-- Scores replacements by mana performance impact
+- **Card Data**
+  - Uses a local Scryfall cache (`oracle-cards.json`) for fast lookups.
+  - Automatically fetches missing cards from Scryfall API.
 
-### Visualization
-- Turn-by-turn plots:
-  - OK / Screw / Flood
-  - Cumulative OK probability
-- Output saved automatically to `output/`
+- **Mechanical Feature Extraction**
+  - Detects mana rocks, dorks, rituals, ramp, card draw, removal, token generation, life gain/loss, sacrifice/death triggers, tribal synergies, and more.
+  - Tracks costs and activation timing (instant, sorcery, triggered, activated).
+  - Encodes data into structured JSON for downstream analysis.
+
+- **Deck Validation**
+  - Ensures color identity legality.
+  - Flags missing or illegal cards.
+
+- **Output**
+  - Encoded JSON (`output/<deck_name>_encoded.json`).
+  - Optional visualization (`output/<deck_name>_encoded.png`) showing mana curve, feature distribution, and power components.
 
 ---
 
-## Configuration
+### 2. Deck Simulator
 
-Simulation behavior can be adjusted in `run_sim.rs`:
-- Number of simulations (`sims`)
-- Number of turns (`turns`)
+- **Opening Hand Analysis**
+  - Computes probabilities for specific card types and mana combinations.
+  - Supports hypergeometric-based calculation for starting hands.
 
-Optional Python scripts may be added to generate:
-- Turn-by-turn screw / flood / OK plots
-- Deck comparison charts
+- **Mulligan Simulation**
+  - Standard and London mulligan rules.
+  - Monte Carlo simulation to estimate success rates over multiple games.
 
-All generated artifacts can be written to the `output/` directory.
+- **Mana Screw / Flood Analysis**
+  - Evaluates likelihood of mana issues on early turns.
+  - Provides visual breakdown by turn and card type.
+
+- **Turn-Based Simulation**
+  - Optional: simulate up to `N` turns for resource development and card draw.
+  - Can be extended to model combo or synergy execution probabilities.
+
+- **Output**
+  - Simulation results in JSON.
+  - Graphs for hand distributions, land drops, and mulligan success rates.
 
 ---
 
-## Contributing
-
-- Fork the repository
-- Make your changes
-- Submit a pull request
-
-Please respect Commander legality and singleton rules when modifying deck logic.
-
----
-
-## License
-
-MIT License — free to use, modify, and share
 
