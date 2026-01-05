@@ -10,3 +10,5 @@ __pycache__/
 # OS-specific
 .DS_Store
 oracle-cards.json
+.card_cache/
+target/

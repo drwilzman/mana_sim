@@ -26,6 +26,7 @@ try:
 except ImportError:
     HAS_PLOTTING = False
 
+#skryfall api
 CACHE_FILE = "oracle-cards.json"
 SCRYFALL_BULK_URL = "https://api.scryfall.com/bulk-data/oracle-cards"
 
