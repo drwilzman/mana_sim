@@ -1,0 +1,1741 @@
+{
+  "commander": {
+    "name": "Zhulodok, Void Gorger",
+    "cmc": 6.0,
+    "type_line": "Legendary Creature \u2014 Eldrazi",
+    "color_identity": [],
+    "oracle_text": "Colorless spells you cast from your hand with mana value 7 or greater have \"Cascade, cascade.\" (When you cast one, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again.)",
+    "mana_cost": "{5}{C}",
+    "is_land": false,
+    "layout": "normal",
+    "features": []
+  },
+  "cards": [
+    {
+      "name": "Endless One",
+      "cmc": 0.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "This creature enters with X +1/+1 counters on it.",
+      "mana_cost": "{X}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Hangarback Walker",
+      "cmc": 0.0,
+      "type_line": "Artifact Creature \u2014 Construct",
+      "color_identity": [],
+      "oracle_text": "This creature enters with X +1/+1 counters on it.\nWhen this creature dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on this creature.\n{1}, {T}: Put a +1/+1 counter on this creature.",
+      "mana_cost": "{X}{X}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Omarthis, Ghostfire Initiate",
+      "cmc": 0.0,
+      "type_line": "Legendary Creature \u2014 Spirit Snake",
+      "color_identity": [],
+      "oracle_text": "Omarthis enters with X +1/+1 counters on it.\nWhenever you put one or more +1/+1 counters on another colorless creature, you may put a +1/+1 counter on Omarthis.\nWhen Omarthis dies, manifest a number of cards from the top of your library equal to the number of counters on it.",
+      "mana_cost": "{X}{X}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stonecoil Serpent",
+      "cmc": 0.0,
+      "type_line": "Artifact Creature \u2014 Snake",
+      "color_identity": [],
+      "oracle_text": "Reach, trample, protection from multicolored\nThis creature enters with X +1/+1 counters on it.",
+      "mana_cost": "{X}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Crashing Drawbridge",
+      "cmc": 2.0,
+      "type_line": "Artifact Creature \u2014 Wall",
+      "color_identity": [],
+      "oracle_text": "Defender\n{T}: Creatures you control gain haste until end of turn.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Ornithopter of Paradise",
+      "cmc": 2.0,
+      "type_line": "Artifact Creature \u2014 Thopter",
+      "color_identity": [],
+      "oracle_text": "Flying\n{T}: Add one mana of any color.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_DORK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Suspicious Bookcase",
+      "cmc": 2.0,
+      "type_line": "Artifact Creature \u2014 Wall",
+      "color_identity": [],
+      "oracle_text": "Defender\n{3}, {T}: Target creature can't be blocked this turn.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Burnished Hart",
+      "cmc": 3.0,
+      "type_line": "Artifact Creature \u2014 Elk",
+      "color_identity": [],
+      "oracle_text": "{3}, Sacrifice this creature: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "RAMP",
+          "costs": [
+            "MANA",
+            "SAC"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_CREATURE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Matter Reshaper",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "({C} represents colorless mana.)\nWhen this creature dies, reveal the top card of your library. You may put that card onto the battlefield if it's a permanent card with mana value 3 or less. Otherwise, put that card into your hand.",
+      "mana_cost": "{2}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Palladium Myr",
+      "cmc": 3.0,
+      "type_line": "Artifact Creature \u2014 Myr",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}{C}.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Skittering Cicada",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Insect",
+      "color_identity": [],
+      "oracle_text": "Flash\nYou may cast colorless spells as though they had flash.\nWhenever you cast a colorless spell, until end of turn, this creature gains trample and gets +X/+X, where X is that spell's mana value.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Abstruse Archaic",
+      "cmc": 4.0,
+      "type_line": "Creature \u2014 Avatar",
+      "color_identity": [],
+      "oracle_text": "Vigilance\n{1}, {T}: Copy target activated or triggered ability you control from a colorless source. You may choose new targets for the copy. (Mana abilities can't be targeted.)",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Myriad Construct",
+      "cmc": 4.0,
+      "type_line": "Artifact Creature \u2014 Construct",
+      "color_identity": [],
+      "oracle_text": "Kicker {3}\nIf this creature was kicked, it enters with a +1/+1 counter on it for each nonbasic land your opponents control.\nWhen this creature becomes the target of a spell, sacrifice it and create a number of 1/1 colorless Construct artifact creature tokens equal to its power.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "SAC_CREATURE_ARTIFACT",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scaretiller",
+      "cmc": 4.0,
+      "type_line": "Artifact Creature \u2014 Scarecrow",
+      "color_identity": [],
+      "oracle_text": "Whenever this creature becomes tapped, choose one \u2014\n\u2022 You may put a land card from your hand onto the battlefield tapped.\n\u2022 Return target land card from your graveyard to the battlefield tapped.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "RAMP",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Solemn Simulacrum",
+      "cmc": 4.0,
+      "type_line": "Artifact Creature \u2014 Golem",
+      "color_identity": [],
+      "oracle_text": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "RAMP",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geode Golem",
+      "cmc": 5.0,
+      "type_line": "Artifact Creature \u2014 Golem",
+      "color_identity": [],
+      "oracle_text": "Trample\nWhenever this creature deals combat damage to a player, you may cast your commander from the command zone without paying its mana cost. (You still pay any additional costs.)",
+      "mana_cost": "{5}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Duplicant",
+      "cmc": 6.0,
+      "type_line": "Artifact Creature \u2014 Shapeshifter",
+      "color_identity": [],
+      "oracle_text": "Imprint \u2014 When this creature enters, you may exile target nontoken creature.\nAs long as a card exiled with this creature is a creature card, this creature has the power, toughness, and creature types of the last creature card exiled with it. It's still a Shapeshifter.",
+      "mana_cost": "{6}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Endbringer",
+      "cmc": 6.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "Untap this creature during each other player's untap step.\n{T}: This creature deals 1 damage to any target.\n{C}, {T}: Target creature can't attack or block this turn.\n{C}{C}, {T}: Draw a card.",
+      "mana_cost": "{5}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oblivion Sower",
+      "cmc": 6.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "When you cast this spell, target opponent exiles the top four cards of their library, then you may put any number of land cards that player owns from exile onto the battlefield under your control.",
+      "mana_cost": "{6}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "RAMP",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soul of New Phyrexia",
+      "cmc": 6.0,
+      "type_line": "Artifact Creature \u2014 Phyrexian Avatar",
+      "color_identity": [],
+      "oracle_text": "Trample\n{5}: Permanents you control gain indestructible until end of turn.\n{5}, Exile this card from your graveyard: Permanents you control gain indestructible until end of turn.",
+      "mana_cost": "{6}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Steel Hellkite",
+      "cmc": 6.0,
+      "type_line": "Artifact Creature \u2014 Dragon",
+      "color_identity": [],
+      "oracle_text": "Flying\n{2}: This creature gets +1/+0 until end of turn.\n{X}: Destroy each nonland permanent with mana value X whose controller was dealt combat damage by this creature this turn. Activate only once each turn.",
+      "mana_cost": "{6}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_DRAGON",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Bane of Bala Ged",
+      "cmc": 7.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "Whenever this creature attacks, defending player exiles two permanents they control.",
+      "mana_cost": "{7}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Meteor Golem",
+      "cmc": 7.0,
+      "type_line": "Artifact Creature \u2014 Golem",
+      "color_identity": [],
+      "oracle_text": "When this creature enters, destroy target nonland permanent an opponent controls.",
+      "mana_cost": "{7}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Artisan of Kozilek",
+      "cmc": 9.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.\nAnnihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
+      "mana_cost": "{9}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_PERMANENT",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Phyrexian Triniform",
+      "cmc": 9.0,
+      "type_line": "Artifact Creature \u2014 Phyrexian Golem",
+      "color_identity": [],
+      "oracle_text": "When this creature dies, create three 3/3 colorless Phyrexian Golem artifact creature tokens.\nEncore {12} ({12}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)",
+      "mana_cost": "{9}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "UPKEEP"
+          ]
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": [
+            "SORCERY"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ancient Stone Idol",
+      "cmc": 10.0,
+      "type_line": "Artifact Creature \u2014 Golem",
+      "color_identity": [],
+      "oracle_text": "Flash\nThis spell costs {1} less to cast for each attacking creature.\nTrample\nWhen this creature dies, create a 6/12 colorless Construct artifact creature token with trample.",
+      "mana_cost": "{10}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flayer of Loyalties",
+      "cmc": 10.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "When you cast this spell, gain control of target creature until end of turn. Untap that creature. Until end of turn, it has base power and toughness 10/10 and gains trample, annihilator 2, and haste.\nAnnihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)\nTrample",
+      "mana_cost": "{8}{C}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_PERMANENT",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kozilek, the Great Distortion",
+      "cmc": 10.0,
+      "type_line": "Legendary Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "When you cast this spell, if you have fewer than seven cards in hand, draw cards equal to the difference.\nMenace\nDiscard a card with mana value X: Counter target spell with mana value X.",
+      "mana_cost": "{8}{C}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "COUNTER",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Metalwork Colossus",
+      "cmc": 11.0,
+      "type_line": "Artifact Creature \u2014 Construct",
+      "color_identity": [],
+      "oracle_text": "This spell costs {X} less to cast, where X is the total mana value of noncreature artifacts you control.\nSacrifice two artifacts: Return this card from your graveyard to your hand.",
+      "mana_cost": "{11}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_ARTIFACT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "It That Betrays",
+      "cmc": 12.0,
+      "type_line": "Creature \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)\nWhenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.",
+      "mana_cost": "{12}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_PERMANENT",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ugin, the Ineffable",
+      "cmc": 6.0,
+      "type_line": "Legendary Planeswalker \u2014 Ugin",
+      "color_identity": [],
+      "oracle_text": "Colorless spells you cast cost {2} less to cast.\n+1: Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.\n\u22123: Destroy target permanent that's one or more colors.",
+      "mana_cost": "{6}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [
+            "MANA"
+          ],
+          "timing": [
+            "ACTIVATED",
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Spatial Contortion",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "color_identity": [],
+      "oracle_text": "({C} represents colorless mana.)\nTarget creature gets +3/-3 until end of turn.",
+      "mana_cost": "{1}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Warping Wail",
+      "cmc": 2.0,
+      "type_line": "Instant",
+      "color_identity": [],
+      "oracle_text": "({C} represents colorless mana.)\nChoose one \u2014\n\u2022 Exile target creature with power or toughness 1 or less.\n\u2022 Counter target sorcery spell.\n\u2022 Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this token: Add {C}.\"",
+      "mana_cost": "{1}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_SPELL_1",
+          "costs": [],
+          "timing": [
+            "INSTANT"
+          ]
+        },
+        {
+          "feature": "REMOVAL",
+          "costs": [],
+          "timing": [
+            "SORCERY"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "SORCERY"
+          ]
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": [
+            "SORCERY"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Titan's Presence",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "color_identity": [],
+      "oracle_text": "As an additional cost to cast this spell, reveal a colorless creature card from your hand.\nExile target creature if its power is less than or equal to the revealed card's power.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Desecrate Reality",
+      "cmc": 7.0,
+      "type_line": "Instant",
+      "color_identity": [],
+      "oracle_text": "For each opponent, exile up to one target permanent that player controls with an even mana value. (Zero is even.)\nAdamant \u2014 If at least three colorless mana was spent to cast this spell, return a permanent card with an odd mana value from your graveyard to the battlefield.",
+      "mana_cost": "{7}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Not of This World",
+      "cmc": 7.0,
+      "type_line": "Kindred Instant \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "Counter target spell or ability that targets a permanent you control.\nThis spell costs {7} less to cast if it targets a spell or ability that targets a creature you control with power 7 or greater.",
+      "mana_cost": "{7}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "COUNTER",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Calamity of the Titans",
+      "cmc": 6.0,
+      "type_line": "Sorcery",
+      "color_identity": [],
+      "oracle_text": "As an additional cost to cast this spell, reveal a colorless creature card from your hand.\nExile each creature and planeswalker with mana value less than the revealed card's mana value.",
+      "mana_cost": "{4}{C}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "All Is Dust",
+      "cmc": 7.0,
+      "type_line": "Kindred Sorcery \u2014 Eldrazi",
+      "color_identity": [],
+      "oracle_text": "Each player sacrifices all permanents they control that are one or more colors.",
+      "mana_cost": "{7}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_PERMANENT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Rise of the Eldrazi",
+      "cmc": 12.0,
+      "type_line": "Sorcery",
+      "color_identity": [],
+      "oracle_text": "This spell can't be countered.\nDestroy target permanent. Target player draws four cards. Take an extra turn after this one.\nExile Rise of the Eldrazi.",
+      "mana_cost": "{9}{C}{C}{C}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Everflowing Chalice",
+      "cmc": 0.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis artifact enters with a charge counter on it for each time it was kicked.\n{T}: Add {C} for each charge counter on this artifact.",
+      "mana_cost": "{0}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sol Ring",
+      "cmc": 1.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}{C}.",
+      "mana_cost": "{1}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Endless Atlas",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{2}, {T}: Draw a card. Activate only if you control three or more lands with the same name.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Investigator's Journal",
+      "cmc": 2.0,
+      "type_line": "Artifact \u2014 Clue",
+      "color_identity": [],
+      "oracle_text": "This artifact enters with a number of suspect counters on it equal to the greatest number of creatures a player controls.\n{2}, {T}, Remove a suspect counter from this artifact: Draw a card.\n{2}, Sacrifice this artifact: Draw a card.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_ARTIFACT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Lightning Greaves",
+      "cmc": 2.0,
+      "type_line": "Artifact \u2014 Equipment",
+      "color_identity": [],
+      "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Mazemind Tome",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}, Put a page counter on this artifact: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{2}, {T}, Put a page counter on this artifact: Draw a card.\nWhen there are four or more page counters on this artifact, exile it. If you do, you gain 4 life.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mind Stone",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_ARTIFACT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Thought Vessel",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Fireshrieker",
+      "cmc": 3.0,
+      "type_line": "Artifact \u2014 Equipment",
+      "color_identity": [],
+      "oracle_text": "Equipped creature has double strike. (It deals both first-strike and regular combat damage.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Mirage Mirror",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{2}: This artifact becomes a copy of target artifact, creature, enchantment, or land until end of turn.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Transmogrifying Wand",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "This artifact enters with three charge counters on it.\n{1}, {T}, Remove a charge counter from this artifact: Destroy target creature. Its controller creates a 2/4 white Ox creature token. Activate only as a sorcery.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "SORCERY"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unstable Obelisk",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{7}, {T}, Sacrifice this artifact: Destroy target permanent.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "REMOVAL",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_ARTIFACT_PERMANENT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Worn Powerstone",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "This artifact enters tapped.\n{T}: Add {C}{C}.",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Hedron Archive",
+      "cmc": 4.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}{C}.\n{2}, {T}, Sacrifice this artifact: Draw two cards.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_ARTIFACT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Mystic Forge",
+      "cmc": 4.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "You may look at the top card of your library any time.\nYou may cast artifact spells and colorless spells from the top of your library.\n{T}, Pay 1 life: Exile the top card of your library.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Perilous Vault",
+      "cmc": 4.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{5}, {T}, Exile this artifact: Exile all nonland permanents.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "BOARD_WIPE",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thran Dynamo",
+      "cmc": 4.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}{C}{C}.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Forsaken Monument",
+      "cmc": 5.0,
+      "type_line": "Legendary Artifact",
+      "color_identity": [],
+      "oracle_text": "Colorless creatures you control get +2/+2.\nWhenever you tap a permanent for {C}, add an additional {C}.\nWhenever you cast a colorless spell, you gain 2 life.",
+      "mana_cost": "{5}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dreamstone Hedron",
+      "cmc": 6.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}{C}{C}.\n{3}, {T}, Sacrifice this artifact: Draw three cards.",
+      "mana_cost": "{6}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_ARTIFACT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Kaldra Compleat",
+      "cmc": 7.0,
+      "type_line": "Legendary Artifact \u2014 Equipment",
+      "color_identity": [],
+      "oracle_text": "Living weapon\nIndestructible\nEquipped creature gets +5/+5 and has first strike, trample, indestructible, haste, and \"Whenever this creature deals combat damage to a creature, exile that creature.\"\nEquip {7}",
+      "mana_cost": "{7}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Darksteel Monolith",
+      "cmc": 8.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "Indestructible\nOnce each turn, you may pay {0} rather than pay the mana cost for a colorless spell you cast from your hand.",
+      "mana_cost": "{8}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Ugin's Mastery",
+      "cmc": 4.0,
+      "type_line": "Enchantment",
+      "color_identity": [],
+      "oracle_text": "Whenever you cast a colorless creature spell, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)\nWhenever you attack with creatures with total power 6 or greater, you may turn a face-down creature you control face up.",
+      "mana_cost": "{4}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Arcane Lighthouse",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{1}, {T}: Until end of turn, creatures your opponents control lose hexproof and shroud and can't have hexproof or shroud.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Arch of Orazca",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n{T}: Add {C}.\n{5}, {T}: Draw a card. Activate only if you have the city's blessing.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blast Zone",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "This land enters with a charge counter on it.\n{T}: Add {C}.\n{X}{X}, {T}: Put X charge counters on this land.\n{3}, {T}, Sacrifice this land: Destroy each nonland permanent with mana value equal to the number of charge counters on this land.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_PERMANENT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Bonders' Enclave",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{3}, {T}: Draw a card. Activate only if you control a creature with power 4 or greater.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eldrazi Temple",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {C}{C}. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Forge of Heroes",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{T}: Choose target commander that entered this turn. Put a +1/+1 counter on it if it's a creature and a loyalty counter on it if it's a planeswalker.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Geier Reach Sanitarium",
+      "cmc": 0.0,
+      "type_line": "Legendary Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{2}, {T}: Each player draws a card, then discards a card.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Guildless Commons",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {C}{C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Mage-Ring Network",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{1}, {T}: Put a storage counter on this land.\n{T}, Remove any number of storage counters from this land: Add {C} for each storage counter removed this way.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Mirrorpool",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "This land enters tapped.\n{T}: Add {C}.\n{2}{C}, {T}, Sacrifice this land: Copy target instant or sorcery spell you control. You may choose new targets for the copy.\n{4}{C}, {T}, Sacrifice this land: Create a token that's a copy of target creature you control.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_CREATURE",
+          "costs": [],
+          "timing": [
+            "INSTANT"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reliquary Tower",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Rogue's Passage",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Ruins of Oran-Rief",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "This land enters tapped.\n{T}: Add {C}. ({C} represents colorless mana.)\n{T}: Put a +1/+1 counter on target colorless creature that entered this turn.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Scavenger Grounds",
+      "cmc": 0.0,
+      "type_line": "Land \u2014 Desert",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice a Desert: Exile all graveyards.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sea Gate Wreckage",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}. ({C} represents colorless mana.)\n{2}{C}, {T}: Draw a card. Activate only if you have no cards in hand.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shrine of the Forsaken Gods",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {C}{C}. Spend this mana only to cast colorless spells. Activate only if you control seven or more lands.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Temple of the False God",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}{C}. Activate only if you control five or more lands.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Tomb of the Spirit Dragon",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{2}, {T}: You gain 1 life for each colorless creature you control.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Tyrite Sanctum",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{2}, {T}: Target legendary creature becomes a God in addition to its other types. Put a +1/+1 counter on it.\n{4}, {T}, Sacrifice this land: Put an indestructible counter on target God.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Urza's Mine",
+      "cmc": 0.0,
+      "type_line": "Land \u2014 Urza's Mine",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Urza's Power Plant",
+      "cmc": 0.0,
+      "type_line": "Land \u2014 Urza's Power-Plant",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Urza's Tower",
+      "cmc": 0.0,
+      "type_line": "Land \u2014 Urza's Tower",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "War Room",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP",
+            "LIFE"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Wastes",
+      "cmc": 0.0,
+      "type_line": "Basic Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    }
+  ],
+  "illegal_cards": [],
+  "statistics": {
+    "total_cards": 99,
+    "feature_counts": {
+      "TOKEN": 8,
+      "DEATH_TRIGGER": 6,
+      "MANA_DORK": 1,
+      "RAMP": 4,
+      "SAC_CREATURE": 2,
+      "MANA_ROCK": 10,
+      "SAC_CREATURE_ARTIFACT": 1,
+      "DRAW": 13,
+      "TRIBAL_DRAGON": 1,
+      "SAC_PERMANENT": 5,
+      "SAC": 4,
+      "COUNTER": 2,
+      "SAC_ARTIFACT": 5,
+      "REMOVAL": 6,
+      "MANA_SPELL_1": 1,
+      "LIFE_GAIN": 3,
+      "SAC_ARTIFACT_PERMANENT": 1,
+      "LIFE_LOSS": 2,
+      "BOARD_WIPE": 1
+    },
+    "activated_abilities": 17,
+    "average_activation_friction": 2.24,
+    "x_spells": [
+      "Endless One",
+      "Hangarback Walker",
+      "Omarthis, Ghostfire Initiate",
+      "Stonecoil Serpent"
+    ],
+    "x_spell_count": 4,
+    "power_level": {
+      "score": 5.3,
+      "components": {
+        "fast_mana": 12,
+        "card_advantage": 26,
+        "interaction": 13.5,
+        "efficiency": 8.5,
+        "x_spell_scaling": 6.0,
+        "synergy": 13.44
+      },
+      "raw_score": 79.44,
+      "fast_mana_count": 4,
+      "interaction_count": 9,
+      "removal_count": 6,
+      "board_wipe_count": 1,
+      "efficiency_ratio": 0.28
+    }
+  }
+}

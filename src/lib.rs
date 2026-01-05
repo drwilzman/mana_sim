@@ -10,7 +10,7 @@ use crate::stats::Stats;
 use crate::deck::DeckFile;
 
 #[pyfunction]
-fn run_sim(deck_path: &str, sims: usize, turns: usize, flood_margin: u32) -> PyResult<Stats> {
+fn run_sim(deck_path: &str, sims: usize, turns: usize) -> PyResult<Stats> {
     let f = std::fs::File::open(deck_path)
         .map_err(|e| pyo3::exceptions::PyIOError::new_err(e.to_string()))?;
     let deck: DeckFile =
@@ -22,8 +22,7 @@ fn run_sim(deck_path: &str, sims: usize, turns: usize, flood_margin: u32) -> PyR
 }
 
 #[pymodule]
-fn mana_sim(_py: Python<'_>, m: &PyModule) -> PyResult<()> {
+fn mana_sim(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(run_sim, m)?)?;
     Ok(())
 }
-

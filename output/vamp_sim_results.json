@@ -1,0 +1,1816 @@
+{
+  "summary": {
+    "screw_rate": 0.20586666666666667,
+    "flood_rate": 0.1305,
+    "ok_rate": 0.6636333333333333,
+    "avg_cards_cast": 0.9249416666666667,
+    "avg_mana_efficiency": 0.5999695253149191
+  },
+  "turn_data": {
+    "screw": [
+      0.8083,
+      0.3315,
+      0.1805,
+      0.119,
+      0.1009,
+      0.0877,
+      0.0864,
+      0.1009,
+      0.127,
+      0.1499,
+      0.1836,
+      0.1947
+    ],
+    "flood": [
+      0.0098,
+      0.0031,
+      0.0028,
+      0.0017,
+      0.0121,
+      0.0452,
+      0.098,
+      0.17,
+      0.2236,
+      0.2903,
+      0.3266,
+      0.3828
+    ],
+    "ok": [
+      0.1819,
+      0.6654,
+      0.8167,
+      0.8793,
+      0.887,
+      0.8671,
+      0.8156,
+      0.7291,
+      0.6494,
+      0.5598,
+      0.4898,
+      0.4225
+    ],
+    "mana_available": [
+      0.9781,
+      2.009,
+      3.0152,
+      3.8317,
+      4.53,
+      5.1124,
+      5.626,
+      6.096,
+      6.5229,
+      6.9317,
+      7.3364,
+      7.7323
+    ],
+    "mana_spent": [
+      0.1819,
+      1.3176,
+      2.3186,
+      3.2343,
+      3.4027,
+      3.7954,
+      3.9145,
+      3.8281,
+      3.7042,
+      3.5048,
+      3.3564,
+      3.2727
+    ],
+    "cards_cast": [
+      0.1819,
+      0.6716,
+      0.8344,
+      0.9467,
+      1.111,
+      1.1438,
+      1.1629,
+      1.1209,
+      1.0574,
+      1.0013,
+      0.9492,
+      0.9182
+    ],
+    "hand_size": [
+      5.9043,
+      5.3122,
+      4.8511,
+      4.7048,
+      4.1258,
+      3.552,
+      2.9992,
+      2.5255,
+      2.1509,
+      1.8454,
+      1.5935,
+      1.3814
+    ]
+  },
+  "example_traces": [
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Vengeant Vampire",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple"
+          ],
+          "battlefield": [
+            "Bottomless Vault"
+          ],
+          "played_cards": [
+            "Bottomless Vault"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Vengeant Vampire",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Aven Mindcensor"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Orzhov Signet"
+          ],
+          "mana_available": 2,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Vengeant Vampire",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)"
+          ],
+          "mana_available": 4,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Vengeant Vampire",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Alley Assailant"
+          ],
+          "mana_available": 5,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Vengeant Vampire"
+          ],
+          "mana_available": 6,
+          "mana_spent": 6,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Sorin Markov"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist"
+          ],
+          "mana_available": 7,
+          "mana_spent": 6,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 7,
+          "hand": [],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Abandoned Air Temple",
+            "Sorin Markov"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Sorin Markov"
+          ],
+          "mana_available": 8,
+          "mana_spent": 6,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 8,
+          "hand": [],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Abandoned Air Temple",
+            "Sorin Markov",
+            "Suspicious Bookcase"
+          ],
+          "played_cards": [
+            "Suspicious Bookcase"
+          ],
+          "mana_available": 8,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 9,
+          "hand": [],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Abandoned Air Temple",
+            "Sorin Markov",
+            "Suspicious Bookcase",
+            "Malakir Bloodwitch"
+          ],
+          "played_cards": [
+            "Malakir Bloodwitch"
+          ],
+          "mana_available": 8,
+          "mana_spent": 5,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 10,
+          "hand": [],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Abandoned Air Temple",
+            "Sorin Markov",
+            "Suspicious Bookcase",
+            "Malakir Bloodwitch",
+            "Flash Thompson, Spider-Fan"
+          ],
+          "played_cards": [
+            "Flash Thompson, Spider-Fan"
+          ],
+          "mana_available": 8,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 11,
+          "hand": [],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Abandoned Air Temple",
+            "Sorin Markov",
+            "Suspicious Bookcase",
+            "Malakir Bloodwitch",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault"
+          ],
+          "played_cards": [
+            "Bottomless Vault"
+          ],
+          "mana_available": 9,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 12,
+          "hand": [],
+          "battlefield": [
+            "Bottomless Vault",
+            "Abandoned Air Temple",
+            "Orzhov Signet",
+            "Abandoned Air Temple",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Aven Mindcensor",
+            "Bloodthirsty Aerialist",
+            "Abandoned Air Temple",
+            "Sorin Markov",
+            "Suspicious Bookcase",
+            "Malakir Bloodwitch",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Bloodthirsty Aerialist"
+          ],
+          "played_cards": [
+            "Bloodthirsty Aerialist"
+          ],
+          "mana_available": 9,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "flood"
+        }
+      ]
+    },
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Bottomless Vault",
+            "Bottomless Vault",
+            "Crossway Troublemakers",
+            "Orzhov Signet"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Sol Ring"
+          ],
+          "mana_available": 1,
+          "mana_spent": 1,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Bottomless Vault",
+            "Crossway Troublemakers",
+            "Alley Assailant"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Orzhov Signet"
+          ],
+          "mana_available": 3,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Crossway Troublemakers",
+            "Alley Assailant",
+            "Vengeant Vampire"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)"
+          ],
+          "mana_available": 5,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Vengeant Vampire",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Crossway Troublemakers"
+          ],
+          "mana_available": 6,
+          "mana_spent": 6,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Vengeant Vampire",
+            "Dark Ritual"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant"
+          ],
+          "mana_available": 7,
+          "mana_spent": 7,
+          "cards_cast": 3,
+          "status": "ok"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Dark Ritual"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Vengeant Vampire"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Vengeant Vampire"
+          ],
+          "mana_available": 8,
+          "mana_spent": 6,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 7,
+          "hand": [],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Vengeant Vampire",
+            "Bottomless Vault"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Dark Ritual"
+          ],
+          "mana_available": 9,
+          "mana_spent": 1,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 8,
+          "hand": [],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Malakir Bloodwitch"
+          ],
+          "played_cards": [
+            "Malakir Bloodwitch"
+          ],
+          "mana_available": 9,
+          "mana_spent": 5,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 9,
+          "hand": [],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Malakir Bloodwitch",
+            "Desperate Bloodseeker"
+          ],
+          "played_cards": [
+            "Desperate Bloodseeker"
+          ],
+          "mana_available": 9,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 10,
+          "hand": [],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Malakir Bloodwitch",
+            "Desperate Bloodseeker",
+            "Crypt Ghast"
+          ],
+          "played_cards": [
+            "Crypt Ghast"
+          ],
+          "mana_available": 9,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 11,
+          "hand": [],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Malakir Bloodwitch",
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Vengeant Vampire"
+          ],
+          "played_cards": [
+            "Vengeant Vampire"
+          ],
+          "mana_available": 9,
+          "mana_spent": 6,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 12,
+          "hand": [
+            "Alley Assailant"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Sol Ring",
+            "Bottomless Vault",
+            "Orzhov Signet",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Crossway Troublemakers",
+            "Bottomless Vault",
+            "Flash Thompson, Spider-Fan",
+            "Desperate Bloodseeker",
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Vengeant Vampire",
+            "Bottomless Vault",
+            "Malakir Bloodwitch",
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Vengeant Vampire",
+            "Clavile\u00f1o, First of the Blessed"
+          ],
+          "played_cards": [
+            "Clavile\u00f1o, First of the Blessed"
+          ],
+          "mana_available": 9,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "flood"
+        }
+      ]
+    },
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Desperate Bloodseeker",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Desperate Bloodseeker",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Crypt Ghast"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Suspicious Bookcase"
+          ],
+          "mana_available": 2,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Desperate Bloodseeker",
+            "Abandoned Air Temple",
+            "Crypt Ghast",
+            "Abandoned Air Temple"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Aven Mindcensor"
+          ],
+          "mana_available": 3,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Abandoned Air Temple",
+            "Command Tower"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple"
+          ],
+          "mana_available": 4,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Command Tower",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple"
+          ],
+          "mana_available": 5,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Bottomless Vault",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Command Tower"
+          ],
+          "played_cards": [
+            "Command Tower"
+          ],
+          "mana_available": 6,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Bottomless Vault",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Command Tower",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)"
+          ],
+          "mana_available": 7,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "Bottomless Vault",
+            "Alley Assailant"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Command Tower",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Bottomless Vault",
+            "Desperate Bloodseeker",
+            "Crypt Ghast"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Desperate Bloodseeker",
+            "Crypt Ghast"
+          ],
+          "mana_available": 8,
+          "mana_spent": 6,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "Bloodthirsty Aerialist"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Command Tower",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Bottomless Vault",
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Bottomless Vault",
+            "Alley Assailant"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Alley Assailant"
+          ],
+          "mana_available": 9,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 10,
+          "hand": [
+            "Bloodline Keeper // Lord of Lineage"
+          ],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Command Tower",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Bottomless Vault",
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Bottomless Vault",
+            "Alley Assailant",
+            "Bloodthirsty Aerialist"
+          ],
+          "played_cards": [
+            "Bloodthirsty Aerialist"
+          ],
+          "mana_available": 9,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 11,
+          "hand": [],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Command Tower",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Bottomless Vault",
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Bottomless Vault",
+            "Alley Assailant",
+            "Bloodthirsty Aerialist",
+            "Bloodline Keeper // Lord of Lineage",
+            "Aven Mindcensor"
+          ],
+          "played_cards": [
+            "Bloodline Keeper // Lord of Lineage",
+            "Aven Mindcensor"
+          ],
+          "mana_available": 9,
+          "mana_spent": 7,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 12,
+          "hand": [],
+          "battlefield": [
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Suspicious Bookcase",
+            "Abandoned Air Temple",
+            "Aven Mindcensor",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Command Tower",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Bottomless Vault",
+            "Desperate Bloodseeker",
+            "Crypt Ghast",
+            "Bottomless Vault",
+            "Alley Assailant",
+            "Bloodthirsty Aerialist",
+            "Bloodline Keeper // Lord of Lineage",
+            "Aven Mindcensor",
+            "Bottomless Vault"
+          ],
+          "played_cards": [
+            "Bottomless Vault"
+          ],
+          "mana_available": 10,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        }
+      ]
+    },
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Alley Assailant",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Ceremonial Knife"
+          ],
+          "mana_available": 1,
+          "mana_spent": 1,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple"
+          ],
+          "mana_available": 2,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Herald of Eternal Dawn",
+            "March of the Canonized"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed"
+          ],
+          "mana_available": 3,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Alley Assailant",
+            "Herald of Eternal Dawn",
+            "March of the Canonized",
+            "Desperate Bloodseeker"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)"
+          ],
+          "mana_available": 4,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "March of the Canonized",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant"
+          ],
+          "played_cards": [
+            "Alley Assailant"
+          ],
+          "mana_available": 4,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "March of the Canonized",
+            "Aven Mindcensor"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker"
+          ],
+          "played_cards": [
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker"
+          ],
+          "mana_available": 4,
+          "mana_spent": 4,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "March of the Canonized"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker",
+            "Aven Mindcensor"
+          ],
+          "played_cards": [
+            "Aven Mindcensor",
+            "Dark Ritual"
+          ],
+          "mana_available": 4,
+          "mana_spent": 4,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "March of the Canonized"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker",
+            "Aven Mindcensor",
+            "Bottomless Vault"
+          ],
+          "played_cards": [
+            "Bottomless Vault"
+          ],
+          "mana_available": 5,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "March of the Canonized",
+            "Desperate Bloodseeker"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker",
+            "Aven Mindcensor",
+            "Bottomless Vault",
+            "Blood Servitor"
+          ],
+          "played_cards": [
+            "Blood Servitor"
+          ],
+          "mana_available": 5,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 10,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "March of the Canonized",
+            "Flash Thompson, Spider-Fan"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker",
+            "Aven Mindcensor",
+            "Bottomless Vault",
+            "Blood Servitor",
+            "Desperate Bloodseeker"
+          ],
+          "played_cards": [
+            "Desperate Bloodseeker"
+          ],
+          "mana_available": 5,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 11,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "March of the Canonized",
+            "Aven Mindcensor"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker",
+            "Aven Mindcensor",
+            "Bottomless Vault",
+            "Blood Servitor",
+            "Desperate Bloodseeker",
+            "Flash Thompson, Spider-Fan"
+          ],
+          "played_cards": [
+            "Flash Thompson, Spider-Fan"
+          ],
+          "mana_available": 5,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 12,
+          "hand": [
+            "Herald of Eternal Dawn",
+            "Aven Mindcensor"
+          ],
+          "battlefield": [
+            "Bottomless Vault",
+            "Ceremonial Knife",
+            "Abandoned Air Temple",
+            "Bottomless Vault",
+            "Clavile\u00f1o, First of the Blessed",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Alley Assailant",
+            "Desperate Bloodseeker",
+            "Desperate Bloodseeker",
+            "Aven Mindcensor",
+            "Bottomless Vault",
+            "Blood Servitor",
+            "Desperate Bloodseeker",
+            "Flash Thompson, Spider-Fan",
+            "Abandoned Air Temple",
+            "March of the Canonized"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "March of the Canonized"
+          ],
+          "mana_available": 6,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "flood"
+        }
+      ]
+    },
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Abandoned Air Temple",
+            "Crypt Ghast",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist"
+          ],
+          "battlefield": [
+            "Command Tower"
+          ],
+          "played_cards": [
+            "Command Tower"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Crypt Ghast",
+            "Abandoned Air Temple",
+            "Alley Assailant",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple"
+          ],
+          "mana_available": 2,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Crypt Ghast",
+            "Alley Assailant",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan"
+          ],
+          "mana_available": 3,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Crypt Ghast",
+            "Alley Assailant",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Blood Servitor"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)"
+          ],
+          "mana_available": 4,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Crypt Ghast",
+            "Alley Assailant",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor"
+          ],
+          "played_cards": [
+            "Abandoned Air Temple",
+            "Blood Servitor"
+          ],
+          "mana_available": 5,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Alley Assailant",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Alley Assailant"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor",
+            "Bottomless Vault",
+            "Crypt Ghast"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Crypt Ghast"
+          ],
+          "mana_available": 6,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Alley Assailant",
+            "Bottomless Vault"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor",
+            "Bottomless Vault",
+            "Crypt Ghast",
+            "Clavile\u00f1o, First of the Blessed",
+            "Alley Assailant"
+          ],
+          "played_cards": [
+            "Clavile\u00f1o, First of the Blessed",
+            "Alley Assailant"
+          ],
+          "mana_available": 6,
+          "mana_spent": 6,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "Bloodthirsty Aerialist",
+            "Alley Assailant",
+            "Dark Ritual"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor",
+            "Bottomless Vault",
+            "Crypt Ghast",
+            "Clavile\u00f1o, First of the Blessed",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Bloodline Keeper // Lord of Lineage"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Bloodline Keeper // Lord of Lineage"
+          ],
+          "mana_available": 7,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "Dark Ritual",
+            "Sorin Markov"
+          ],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor",
+            "Bottomless Vault",
+            "Crypt Ghast",
+            "Clavile\u00f1o, First of the Blessed",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Alley Assailant"
+          ],
+          "played_cards": [
+            "Bloodthirsty Aerialist",
+            "Alley Assailant"
+          ],
+          "mana_available": 7,
+          "mana_spent": 6,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 10,
+          "hand": [],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor",
+            "Bottomless Vault",
+            "Crypt Ghast",
+            "Clavile\u00f1o, First of the Blessed",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Sorin Markov"
+          ],
+          "played_cards": [
+            "Bottomless Vault",
+            "Dark Ritual",
+            "Sorin Markov"
+          ],
+          "mana_available": 8,
+          "mana_spent": 7,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 11,
+          "hand": [],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor",
+            "Bottomless Vault",
+            "Crypt Ghast",
+            "Clavile\u00f1o, First of the Blessed",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Sorin Markov",
+            "Bottomless Vault"
+          ],
+          "played_cards": [
+            "Obscura Storefront (fetch)",
+            "Bottomless Vault (fetched)"
+          ],
+          "mana_available": 9,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 12,
+          "hand": [],
+          "battlefield": [
+            "Command Tower",
+            "Abandoned Air Temple",
+            "Abandoned Air Temple",
+            "Flash Thompson, Spider-Fan",
+            "Bottomless Vault",
+            "Edgar, Charmed Groom // Edgar Markov's Coffin",
+            "Abandoned Air Temple",
+            "Blood Servitor",
+            "Bottomless Vault",
+            "Crypt Ghast",
+            "Clavile\u00f1o, First of the Blessed",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Bloodline Keeper // Lord of Lineage",
+            "Bloodthirsty Aerialist",
+            "Alley Assailant",
+            "Bottomless Vault",
+            "Sorin Markov",
+            "Bottomless Vault",
+            "Bottomless Vault"
+          ],
+          "played_cards": [
+            "Bottomless Vault"
+          ],
+          "mana_available": 10,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        }
+      ]
+    }
+  ]
+}

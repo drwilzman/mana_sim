@@ -1,0 +1,1686 @@
+{
+  "summary": {
+    "screw_rate": 0.3139,
+    "flood_rate": 0.15856666666666666,
+    "ok_rate": 0.5275333333333333,
+    "avg_cards_cast": 0.7514416666666667,
+    "avg_mana_efficiency": 0.4800330457182839
+  },
+  "turn_data": {
+    "screw": [
+      0.6325,
+      0.3899,
+      0.2759,
+      0.2314,
+      0.2551,
+      0.2331,
+      0.2441,
+      0.2618,
+      0.282,
+      0.3051,
+      0.3231,
+      0.3328
+    ],
+    "flood": [
+      0.008,
+      0.0058,
+      0.0106,
+      0.0307,
+      0.0671,
+      0.1177,
+      0.1703,
+      0.2294,
+      0.2694,
+      0.3019,
+      0.33,
+      0.3619
+    ],
+    "ok": [
+      0.3595,
+      0.6043,
+      0.7135,
+      0.7379,
+      0.6778,
+      0.6492,
+      0.5856,
+      0.5088,
+      0.4486,
+      0.393,
+      0.3469,
+      0.3053
+    ],
+    "mana_available": [
+      0.9904,
+      2.1424,
+      3.3235,
+      4.4539,
+      5.4185,
+      6.2144,
+      6.9314,
+      7.5471,
+      8.1314,
+      8.6757,
+      9.201,
+      9.718
+    ],
+    "mana_spent": [
+      0.0903,
+      1.2121,
+      2.1141,
+      2.8109,
+      3.2004,
+      3.6956,
+      3.8279,
+      3.7341,
+      3.6937,
+      3.5682,
+      3.4948,
+      3.4792
+    ],
+    "cards_cast": [
+      0.4235,
+      0.6322,
+      0.7875,
+      0.8689,
+      0.85,
+      0.857,
+      0.8363,
+      0.8105,
+      0.7774,
+      0.745,
+      0.7227,
+      0.7063
+    ],
+    "hand_size": [
+      5.9206,
+      5.5115,
+      4.8627,
+      4.2822,
+      3.7748,
+      3.3575,
+      3.0053,
+      2.7592,
+      2.576,
+      2.4524,
+      2.368,
+      2.3055
+    ]
+  },
+  "example_traces": [
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Rise of the Eldrazi",
+            "Arcane Lighthouse",
+            "Darksteel Monolith"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Rise of the Eldrazi",
+            "Arcane Lighthouse",
+            "Darksteel Monolith",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 2,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Geode Golem",
+            "Abstruse Archaic",
+            "Rise of the Eldrazi",
+            "Arcane Lighthouse",
+            "Darksteel Monolith",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 3,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Geode Golem",
+            "Rise of the Eldrazi",
+            "Darksteel Monolith",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Ancient Stone Idol"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Abstruse Archaic"
+          ],
+          "mana_available": 4,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Darksteel Monolith",
+            "Arcane Lighthouse",
+            "Ancient Stone Idol",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Geode Golem"
+          ],
+          "mana_available": 5,
+          "mana_spent": 5,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Darksteel Monolith",
+            "Ancient Stone Idol",
+            "Bane of Bala Ged"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Crashing Drawbridge"
+          ],
+          "mana_available": 6,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Darksteel Monolith",
+            "Ancient Stone Idol"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Bane of Bala Ged"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Bane of Bala Ged"
+          ],
+          "mana_available": 7,
+          "mana_spent": 7,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Darksteel Monolith",
+            "Ancient Stone Idol"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Bane of Bala Ged",
+            "Abstruse Archaic"
+          ],
+          "played_cards": [
+            "Abstruse Archaic"
+          ],
+          "mana_available": 7,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Darksteel Monolith",
+            "Ancient Stone Idol"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Bane of Bala Ged",
+            "Abstruse Archaic",
+            "Bane of Bala Ged"
+          ],
+          "played_cards": [
+            "Bane of Bala Ged"
+          ],
+          "mana_available": 7,
+          "mana_spent": 7,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 10,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Darksteel Monolith",
+            "Ancient Stone Idol",
+            "Matter Reshaper"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Bane of Bala Ged",
+            "Abstruse Archaic",
+            "Bane of Bala Ged"
+          ],
+          "played_cards": [],
+          "mana_available": 7,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 11,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Ancient Stone Idol",
+            "Matter Reshaper"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Bane of Bala Ged",
+            "Abstruse Archaic",
+            "Bane of Bala Ged",
+            "Arcane Lighthouse",
+            "Darksteel Monolith"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Darksteel Monolith"
+          ],
+          "mana_available": 8,
+          "mana_spent": 8,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 12,
+          "hand": [
+            "Rise of the Eldrazi",
+            "Ancient Stone Idol",
+            "Matter Reshaper",
+            "Spatial Contortion"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Bane of Bala Ged",
+            "Abstruse Archaic",
+            "Bane of Bala Ged",
+            "Arcane Lighthouse",
+            "Darksteel Monolith"
+          ],
+          "played_cards": [],
+          "mana_available": 8,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        }
+      ]
+    },
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Artisan of Kozilek",
+            "Arcane Lighthouse",
+            "Duplicant",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Endless One"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Crashing Drawbridge"
+          ],
+          "mana_available": 2,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 3,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 4,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Duplicant"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 5,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Arcane Lighthouse",
+            "Duplicant",
+            "Dreamstone Hedron"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Mind Stone"
+          ],
+          "mana_available": 6,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Duplicant",
+            "Abstruse Archaic",
+            "Artisan of Kozilek"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Dreamstone Hedron"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Dreamstone Hedron"
+          ],
+          "mana_available": 8,
+          "mana_spent": 6,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "Duplicant",
+            "Duplicant",
+            "Abstruse Archaic",
+            "Artisan of Kozilek",
+            "Abstruse Archaic"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Dreamstone Hedron",
+            "Artisan of Kozilek"
+          ],
+          "played_cards": [
+            "Artisan of Kozilek"
+          ],
+          "mana_available": 9,
+          "mana_spent": 9,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "Duplicant",
+            "Abstruse Archaic",
+            "Artisan of Kozilek",
+            "Abstruse Archaic",
+            "Geode Golem"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Dreamstone Hedron",
+            "Artisan of Kozilek",
+            "Duplicant"
+          ],
+          "played_cards": [
+            "Duplicant"
+          ],
+          "mana_available": 9,
+          "mana_spent": 6,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 10,
+          "hand": [
+            "Duplicant",
+            "Artisan of Kozilek",
+            "Abstruse Archaic",
+            "Geode Golem",
+            "Ancient Stone Idol"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Dreamstone Hedron",
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Hedron Archive",
+            "Abstruse Archaic"
+          ],
+          "played_cards": [
+            "Hedron Archive",
+            "Abstruse Archaic"
+          ],
+          "mana_available": 9,
+          "mana_spent": 8,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 11,
+          "hand": [
+            "Artisan of Kozilek",
+            "Geode Golem",
+            "Ancient Stone Idol"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Dreamstone Hedron",
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Hedron Archive",
+            "Abstruse Archaic",
+            "Duplicant",
+            "Abstruse Archaic",
+            "Endless One"
+          ],
+          "played_cards": [
+            "Duplicant",
+            "Abstruse Archaic",
+            "Endless One"
+          ],
+          "mana_available": 10,
+          "mana_spent": 10,
+          "cards_cast": 3,
+          "status": "ok"
+        },
+        {
+          "turn": 12,
+          "hand": [
+            "Geode Golem",
+            "Ancient Stone Idol",
+            "Spatial Contortion"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Dreamstone Hedron",
+            "Artisan of Kozilek",
+            "Duplicant",
+            "Hedron Archive",
+            "Abstruse Archaic",
+            "Duplicant",
+            "Abstruse Archaic",
+            "Endless One",
+            "Artisan of Kozilek"
+          ],
+          "played_cards": [
+            "Artisan of Kozilek"
+          ],
+          "mana_available": 10,
+          "mana_spent": 9,
+          "cards_cast": 1,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "final_status": "screw",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 10,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [],
+          "played_cards": [],
+          "mana_available": 0,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 11,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 12,
+          "hand": [
+            "Abstruse Archaic",
+            "Hedron Archive",
+            "Flayer of Loyalties",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Rise of the Eldrazi",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        }
+      ]
+    },
+    {
+      "final_status": "screw",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Geode Golem",
+            "Mind Stone",
+            "It That Betrays",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Geode Golem",
+            "It That Betrays",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Artisan of Kozilek",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Mind Stone"
+          ],
+          "mana_available": 2,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "Geode Golem",
+            "It That Betrays",
+            "Crashing Drawbridge",
+            "Artisan of Kozilek",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Palladium Myr"
+          ],
+          "mana_available": 4,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "It That Betrays",
+            "Crashing Drawbridge",
+            "Artisan of Kozilek",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Geode Golem"
+          ],
+          "mana_available": 6,
+          "mana_spent": 5,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "It That Betrays",
+            "Artisan of Kozilek",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Crashing Drawbridge"
+          ],
+          "mana_available": 7,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "It That Betrays",
+            "Artisan of Kozilek",
+            "Spatial Contortion"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 8,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "It That Betrays",
+            "Artisan of Kozilek",
+            "Spatial Contortion",
+            "Metalwork Colossus"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [],
+          "mana_available": 8,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "It That Betrays",
+            "Artisan of Kozilek",
+            "Spatial Contortion",
+            "Metalwork Colossus"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Palladium Myr"
+          ],
+          "played_cards": [
+            "Palladium Myr"
+          ],
+          "mana_available": 8,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "It That Betrays",
+            "Spatial Contortion",
+            "Metalwork Colossus"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Artisan of Kozilek",
+            "Endless One"
+          ],
+          "played_cards": [
+            "Artisan of Kozilek",
+            "Endless One"
+          ],
+          "mana_available": 9,
+          "mana_spent": 9,
+          "cards_cast": 2,
+          "status": "ok"
+        },
+        {
+          "turn": 10,
+          "hand": [
+            "It That Betrays",
+            "Spatial Contortion",
+            "Metalwork Colossus"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Artisan of Kozilek",
+            "Endless One",
+            "Abstruse Archaic"
+          ],
+          "played_cards": [
+            "Abstruse Archaic"
+          ],
+          "mana_available": 9,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 11,
+          "hand": [
+            "It That Betrays",
+            "Spatial Contortion",
+            "Metalwork Colossus"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Artisan of Kozilek",
+            "Endless One",
+            "Abstruse Archaic",
+            "Endless One"
+          ],
+          "played_cards": [
+            "Endless One"
+          ],
+          "mana_available": 9,
+          "mana_spent": 0,
+          "cards_cast": 1,
+          "status": "flood"
+        },
+        {
+          "turn": 12,
+          "hand": [
+            "It That Betrays",
+            "Spatial Contortion",
+            "Metalwork Colossus",
+            "Flayer of Loyalties"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Arcane Lighthouse",
+            "Geode Golem",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge",
+            "Arcane Lighthouse",
+            "Palladium Myr",
+            "Artisan of Kozilek",
+            "Endless One",
+            "Abstruse Archaic",
+            "Endless One"
+          ],
+          "played_cards": [],
+          "mana_available": 9,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        }
+      ]
+    },
+    {
+      "final_status": "ok",
+      "turns": [
+        {
+          "turn": 1,
+          "hand": [
+            "Burnished Hart",
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "It That Betrays",
+            "Hedron Archive"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse"
+          ],
+          "mana_available": 1,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 2,
+          "hand": [
+            "Burnished Hart",
+            "Arcane Lighthouse",
+            "It That Betrays",
+            "Hedron Archive"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Endless One"
+          ],
+          "mana_available": 2,
+          "mana_spent": 0,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 3,
+          "hand": [
+            "It That Betrays",
+            "Hedron Archive",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Burnished Hart"
+          ],
+          "mana_available": 3,
+          "mana_spent": 3,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 4,
+          "hand": [
+            "It That Betrays",
+            "Hedron Archive",
+            "Abstruse Archaic"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [
+            "Crashing Drawbridge"
+          ],
+          "mana_available": 3,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 5,
+          "hand": [
+            "It That Betrays",
+            "Hedron Archive",
+            "Abstruse Archaic",
+            "Bane of Bala Ged"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [],
+          "mana_available": 3,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 6,
+          "hand": [
+            "It That Betrays",
+            "Hedron Archive",
+            "Abstruse Archaic",
+            "Bane of Bala Ged",
+            "Duplicant"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [],
+          "mana_available": 3,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 7,
+          "hand": [
+            "It That Betrays",
+            "Hedron Archive",
+            "Abstruse Archaic",
+            "Bane of Bala Ged",
+            "Duplicant",
+            "Abstruse Archaic"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [],
+          "mana_available": 3,
+          "mana_spent": 0,
+          "cards_cast": 0,
+          "status": "screw"
+        },
+        {
+          "turn": 8,
+          "hand": [
+            "It That Betrays",
+            "Hedron Archive",
+            "Abstruse Archaic",
+            "Bane of Bala Ged",
+            "Duplicant",
+            "Abstruse Archaic",
+            "Arcane Lighthouse"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge",
+            "Mind Stone"
+          ],
+          "played_cards": [
+            "Mind Stone"
+          ],
+          "mana_available": 3,
+          "mana_spent": 2,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 9,
+          "hand": [
+            "It That Betrays",
+            "Abstruse Archaic",
+            "Bane of Bala Ged",
+            "Duplicant",
+            "Abstruse Archaic",
+            "Arcane Lighthouse",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Hedron Archive"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Hedron Archive"
+          ],
+          "mana_available": 5,
+          "mana_spent": 4,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 10,
+          "hand": [
+            "It That Betrays",
+            "Bane of Bala Ged",
+            "Duplicant",
+            "Abstruse Archaic"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Hedron Archive",
+            "Arcane Lighthouse",
+            "Everflowing Chalice",
+            "Abstruse Archaic",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Everflowing Chalice",
+            "Abstruse Archaic",
+            "Crashing Drawbridge"
+          ],
+          "mana_available": 7,
+          "mana_spent": 6,
+          "cards_cast": 3,
+          "status": "ok"
+        },
+        {
+          "turn": 11,
+          "hand": [
+            "It That Betrays",
+            "Duplicant",
+            "Abstruse Archaic",
+            "Crashing Drawbridge"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Hedron Archive",
+            "Arcane Lighthouse",
+            "Everflowing Chalice",
+            "Abstruse Archaic",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged"
+          ],
+          "played_cards": [
+            "Bane of Bala Ged"
+          ],
+          "mana_available": 8,
+          "mana_spent": 7,
+          "cards_cast": 1,
+          "status": "ok"
+        },
+        {
+          "turn": 12,
+          "hand": [
+            "It That Betrays",
+            "Abstruse Archaic"
+          ],
+          "battlefield": [
+            "Arcane Lighthouse",
+            "Arcane Lighthouse",
+            "Endless One",
+            "Arcane Lighthouse",
+            "Burnished Hart",
+            "Crashing Drawbridge",
+            "Mind Stone",
+            "Arcane Lighthouse",
+            "Hedron Archive",
+            "Arcane Lighthouse",
+            "Everflowing Chalice",
+            "Abstruse Archaic",
+            "Crashing Drawbridge",
+            "Bane of Bala Ged",
+            "Arcane Lighthouse",
+            "Duplicant",
+            "Crashing Drawbridge"
+          ],
+          "played_cards": [
+            "Arcane Lighthouse",
+            "Duplicant",
+            "Crashing Drawbridge"
+          ],
+          "mana_available": 9,
+          "mana_spent": 8,
+          "cards_cast": 2,
+          "status": "ok"
+        }
+      ]
+    }
+  ]
+}

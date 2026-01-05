@@ -1,20 +1,33 @@
 use pyo3::prelude::*;
 use serde::Serialize;
 
+#[pyclass]
 #[derive(Clone, Serialize)]
 pub struct TurnSnapshot {
+    #[pyo3(get)]
     pub turn: usize,
+    #[pyo3(get)]
     pub hand: Vec<String>,
+    #[pyo3(get)]
     pub battlefield: Vec<String>,
+    #[pyo3(get)]
+    pub played_cards: Vec<String>,
+    #[pyo3(get)]
     pub mana_available: u32,
+    #[pyo3(get)]
     pub mana_spent: u32,
+    #[pyo3(get)]
     pub cards_cast: usize,
-    pub status: String, // "screw", "flood", "ok"
+    #[pyo3(get)]
+    pub status: String,
 }
 
+#[pyclass]
 #[derive(Clone, Serialize)]
 pub struct GameTrace {
-    pub final_status: String, // Dominant status across game
+    #[pyo3(get)]
+    pub final_status: String,
+    #[pyo3(get)]
     pub turns: Vec<TurnSnapshot>,
 }
 
@@ -37,7 +50,7 @@ pub struct Stats {
     #[pyo3(get)]
     pub avg_hand_size: Vec<f64>,
     
-    #[serde(skip)]
+    #[pyo3(get)]
     pub example_traces: Vec<GameTrace>,
 }
 

@@ -1,0 +1,2213 @@
+{
+  "commander": {
+    "name": "Edgar, Charmed Groom // Edgar Markov's Coffin",
+    "cmc": 4.0,
+    "type_line": "Legendary Creature \u2014 Vampire Noble // Legendary Artifact",
+    "color_identity": [
+      "B",
+      "W"
+    ],
+    "oracle_text": "",
+    "mana_cost": "{2}{W}{B}",
+    "is_land": false,
+    "layout": "transform",
+    "features": [
+      {
+        "feature": "TRIBAL_VAMPIRE",
+        "costs": [],
+        "timing": []
+      }
+    ]
+  },
+  "cards": [
+    {
+      "name": "Desperate Bloodseeker",
+      "cmc": 2.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Lifelink\nWhen this creature enters, target player mills two cards. (They put the top two cards of their library into their graveyard.)",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Flash Thompson, Spider-Fan",
+      "cmc": 2.0,
+      "type_line": "Legendary Creature \u2014 Human Citizen",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Flash\nWhen Flash Thompson enters, choose one or both \u2014\n\u2022 Heckle \u2014 Tap target creature.\n\u2022 Hero Worship \u2014 Untap target creature.",
+      "mana_cost": "{1}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Heir of Falkenrath // Heir to the Night",
+      "cmc": 2.0,
+      "type_line": "Creature \u2014 Vampire // Creature \u2014 Vampire Berserker",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "transform",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Leering Onlooker",
+      "cmc": 2.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying\n{2}{B}{B}, Exile this card from your graveyard: Create two tapped 1/1 black Bat creature tokens with flying.",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [
+            "MANA"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Malakir Blood-Priest",
+      "cmc": 2.0,
+      "type_line": "Creature \u2014 Vampire Cleric",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "When this creature enters, each opponent loses X life and you gain X life, where X is the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_WIZARD",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_CLERIC",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_WARRIOR",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_ROGUE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sanguine Syphoner",
+      "cmc": 2.0,
+      "type_line": "Creature \u2014 Vampire Warlock",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Suspicious Bookcase",
+      "cmc": 2.0,
+      "type_line": "Artifact Creature \u2014 Wall",
+      "color_identity": [],
+      "oracle_text": "Defender\n{3}, {T}: Target creature can't be blocked this turn.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Voldaren Bloodcaster // Bloodbat Summoner",
+      "cmc": 2.0,
+      "type_line": "Creature \u2014 Vampire Wizard // Creature \u2014 Vampire Wizard",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "transform",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_WIZARD",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Alley Assailant",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Vampire Rogue",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "This creature enters tapped.\nDisguise {4}{B}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, target opponent loses 3 life and you gain 3 life.",
+      "mana_cost": "{2}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_ROGUE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Aven Mindcensor",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Bird Wizard",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Flash\nFlying\nIf an opponent would search a library, that player searches the top four cards of that library instead.",
+      "mana_cost": "{2}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_WIZARD",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Blood Servitor",
+      "cmc": 3.0,
+      "type_line": "Artifact Creature \u2014 Construct",
+      "color_identity": [],
+      "oracle_text": "When this creature enters, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")",
+      "mana_cost": "{3}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC",
+            "DISCARD"
+          ],
+          "timing": [
+            "ACTIVATED",
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bloodthirsty Aerialist",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Vampire Rogue",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying\nWhenever you gain life, put a +1/+1 counter on this creature.",
+      "mana_cost": "{1}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_ROGUE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Captivating Vampire",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Other Vampire creatures you control get +1/+1.\nTap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.",
+      "mana_cost": "{1}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Clandestine Meddler",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Vampire Rogue",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "When this creature enters, suspect up to one other target creature you control. (A suspected creature has menace and can't block.)\nWhenever one or more suspected creatures you control attack, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+      "mana_cost": "{2}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_ROGUE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Clavile\u00f1o, First of the Blessed",
+      "cmc": 3.0,
+      "type_line": "Legendary Creature \u2014 Vampire Cleric",
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "oracle_text": "Whenever you attack, target attacking Vampire that isn't a Demon becomes a Demon in addition to its other types. It gains \"When this creature dies, draw a card and create a tapped 4/3 white and black Vampire Demon creature token with flying.\"",
+      "mana_cost": "{1}{W}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_DEMON",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_CLERIC",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Drana, Liberator of Malakir",
+      "cmc": 3.0,
+      "type_line": "Legendary Creature \u2014 Vampire Ally",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying, first strike\nWhenever Drana deals combat damage to a player, put a +1/+1 counter on each attacking creature you control.",
+      "mana_cost": "{1}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Falkenrath Forebear",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying\nThis creature can't block.\nWhenever this creature deals combat damage to a player, create a Blood token.\n{B}, Sacrifice two Blood tokens: Return this card from your graveyard to the battlefield.",
+      "mana_cost": "{2}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Stromkirk Bloodthief",
+      "cmc": 3.0,
+      "type_line": "Creature \u2014 Vampire Rogue",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control.",
+      "mana_cost": "{2}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_ROGUE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Bloodline Keeper // Lord of Lineage",
+      "cmc": 4.0,
+      "type_line": "Creature \u2014 Vampire // Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "",
+      "mana_cost": "{2}{B}{B}",
+      "is_land": false,
+      "layout": "transform",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Crypt Ghast",
+      "cmc": 4.0,
+      "type_line": "Creature \u2014 Spirit",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)\nWhenever you tap a Swamp for mana, add an additional {B}.",
+      "mana_cost": "{3}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dashing Bloodsucker",
+      "cmc": 4.0,
+      "type_line": "Creature \u2014 Vampire Warrior",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Eerie \u2014 Whenever an enchantment you control enters and whenever you fully unlock a Room, this creature gets +2/+0 and gains lifelink until end of turn.",
+      "mana_cost": "{3}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_WARRIOR",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Rooftop Assassin",
+      "cmc": 4.0,
+      "type_line": "Creature \u2014 Vampire Assassin",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flash\nFlying, lifelink\nWhen this creature enters, destroy target creature an opponent controls that was dealt damage this turn.",
+      "mana_cost": "{3}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sanctum Seeker",
+      "cmc": 4.0,
+      "type_line": "Creature \u2014 Vampire Knight",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.",
+      "mana_cost": "{2}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Twilight Prophet",
+      "cmc": 4.0,
+      "type_line": "Creature \u2014 Vampire Cleric",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying\nAscend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAt the beginning of your upkeep, if you have the city's blessing, reveal the top card of your library and put it into your hand. Each opponent loses X life and you gain X life, where X is that card's mana value.",
+      "mana_cost": "{2}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "UPKEEP"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_CLERIC",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Bloodline Necromancer",
+      "cmc": 5.0,
+      "type_line": "Creature \u2014 Vampire Wizard",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Lifelink\nWhen this creature enters, you may return target Vampire or Wizard creature card from your graveyard to the battlefield.",
+      "mana_cost": "{4}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_WIZARD",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Malakir Bloodwitch",
+      "cmc": 5.0,
+      "type_line": "Creature \u2014 Vampire Shaman",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying, protection from white\nWhen this creature enters, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way.",
+      "mana_cost": "{3}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_SHAMAN",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sengir Connoisseur",
+      "cmc": 5.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying\nWhenever one or more other creatures die, put a +1/+1 counter on this creature. This ability triggers only once each turn.",
+      "mana_cost": "{3}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sengir Nosferatu",
+      "cmc": 5.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying\n{1}{B}, Exile this creature: Create a 1/2 black Bat creature token with flying. It has \"{1}{B}, Sacrifice this token: Return an exiled card named Sengir Nosferatu to the battlefield under its owner's control.\"",
+      "mana_cost": "{3}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [
+            "MANA"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sengir Vampire",
+      "cmc": 5.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature.",
+      "mana_cost": "{3}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Crossway Troublemakers",
+      "cmc": 6.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Attacking Vampires you control have deathtouch and lifelink. (Any amount of damage they deal to a creature is enough to destroy it. Damage dealt by those creatures also causes their controller to gain that much life.)\nWhenever a Vampire you control dies, you may pay 2 life. If you do, draw a card.",
+      "mana_cost": "{5}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Ojer Taq, Deepest Foundation // Temple of Civilization",
+      "cmc": 6.0,
+      "type_line": "Legendary Creature \u2014 God // Land",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "",
+      "mana_cost": "{4}{W}{W}",
+      "is_land": false,
+      "layout": "transform",
+      "features": []
+    },
+    {
+      "name": "Vengeant Vampire",
+      "cmc": 6.0,
+      "type_line": "Creature \u2014 Vampire",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Lifelink\nWhen this creature dies, destroy target creature an opponent controls and you gain 4 life.",
+      "mana_cost": "{4}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Herald of Eternal Dawn",
+      "cmc": 7.0,
+      "type_line": "Creature \u2014 Angel",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nYou can't lose the game and your opponents can't win the game.",
+      "mana_cost": "{4}{W}{W}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TRIBAL_ANGEL",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sorin Markov",
+      "cmc": 6.0,
+      "type_line": "Legendary Planeswalker \u2014 Sorin",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "+2: Sorin Markov deals 2 damage to any target and you gain 2 life.\n\u22123: Target opponent's life total becomes 10.\n\u22127: You control target player during that player's next turn.",
+      "mana_cost": "{3}{B}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Dark Ritual",
+      "cmc": 1.0,
+      "type_line": "Instant",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Add {B}{B}{B}.",
+      "mana_cost": "{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_SPELL_1",
+          "costs": [],
+          "timing": [
+            "INSTANT"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anguished Unmaking",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "oracle_text": "Exile target nonland permanent. You lose 3 life.",
+      "mana_cost": "{1}{W}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Make Your Move",
+      "cmc": 3.0,
+      "type_line": "Instant",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Destroy target artifact, enchantment, or creature with power 4 or greater.",
+      "mana_cost": "{2}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sandbenders' Storm",
+      "cmc": 4.0,
+      "type_line": "Instant",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Choose one\u2014\n\u2022 Destroy target creature with power 4 or greater.\n\u2022 Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+      "mana_cost": "{3}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "REMOVAL",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "DEATH_TRIGGER",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ON_DEATH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Beckoning",
+      "cmc": 1.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)\nReturn target creature card from your graveyard to your hand. If this spell was kicked, instead return two target creature cards from your graveyard to your hand.",
+      "mana_cost": "{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Agonizing Remorse",
+      "cmc": 2.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Target opponent reveals their hand. You choose a nonland card from it or a card from their graveyard. Exile that card. You lose 1 life.",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Gift of Estates",
+      "cmc": 2.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, put them into your hand, then shuffle.",
+      "mana_cost": "{1}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "RAMP",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Macabre Waltz",
+      "cmc": 2.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Return up to two target creature cards from your graveyard to your hand, then discard a card.",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Assassinate",
+      "cmc": 3.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Destroy target tapped creature.",
+      "mana_cost": "{2}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Sword-Point Diplomacy",
+      "cmc": 3.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.",
+      "mana_cost": "{2}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Consuming Vapors",
+      "cmc": 4.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Target player sacrifices a creature of their choice. You gain life equal to that creature's toughness.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+      "mana_cost": "{3}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "SAC_CREATURE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Reprocess",
+      "cmc": 4.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Sacrifice any number of artifacts, creatures, and/or lands. Draw a card for each permanent sacrificed this way.",
+      "mana_cost": "{2}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "SAC_CREATURE_ARTIFACT_PERMANENT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Beacon of Unrest",
+      "cmc": 5.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.",
+      "mana_cost": "{3}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Grave Exchange",
+      "cmc": 6.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Return target creature card from your graveyard to your hand. Target player sacrifices a creature of their choice.",
+      "mana_cost": "{4}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_CREATURE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Haunting Voyage",
+      "cmc": 6.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Choose a creature type. Return up to two creature cards of that type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of that type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+      "mana_cost": "{4}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "In Garruk's Wake",
+      "cmc": 9.0,
+      "type_line": "Sorcery",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Destroy all creatures you don't control and all planeswalkers you don't control.",
+      "mana_cost": "{7}{B}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "BOARD_WIPE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Ceremonial Knife",
+      "cmc": 1.0,
+      "type_line": "Artifact \u2014 Equipment",
+      "color_identity": [],
+      "oracle_text": "Equipped creature gets +1/+0 and has \"Whenever this creature deals combat damage, create a Blood token.\" (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "mana_cost": "{1}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC",
+            "DISCARD"
+          ],
+          "timing": [
+            "ACTIVATED",
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sol Ring",
+      "cmc": 1.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}{C}.",
+      "mana_cost": "{1}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Bride's Gown",
+      "cmc": 2.0,
+      "type_line": "Artifact \u2014 Equipment",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Equipped creature gets +2/+0. It gets an additional +0/+2 and has first strike as long as an Equipment named Groom's Finery is attached to a creature you control.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "mana_cost": "{1}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Groom's Finery",
+      "cmc": 2.0,
+      "type_line": "Artifact \u2014 Equipment",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Equipped creature gets +2/+0. It gets an additional +0/+2 and has deathtouch as long as an Equipment named Bride's Gown is attached to a creature you control.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Investigator's Journal",
+      "cmc": 2.0,
+      "type_line": "Artifact \u2014 Clue",
+      "color_identity": [],
+      "oracle_text": "This artifact enters with a number of suspect counters on it equal to the greatest number of creatures a player controls.\n{2}, {T}, Remove a suspect counter from this artifact: Draw a card.\n{2}, Sacrifice this artifact: Draw a card.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "SAC_ARTIFACT",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Orzhov Signet",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "oracle_text": "{1}, {T}: Add {W}{B}.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Wedding Invitation",
+      "cmc": 2.0,
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "When this artifact enters, draw a card.\n{T}, Sacrifice this artifact: Target creature can't be blocked this turn. If it's a Vampire, it also gains lifelink until end of turn.",
+      "mana_cost": "{2}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "SAC_CREATURE_ARTIFACT",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Glass-Cast Heart",
+      "cmc": 3.0,
+      "type_line": "Artifact",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Whenever one or more Vampires you control attack, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")\n{B}, {T}, Pay 1 life: Create a 1/1 white and black Vampire creature token with lifelink.\n{B}{B}, {T}, Sacrifice this artifact and thirteen Blood tokens: Each opponent loses 13 life and you gain 13 life.",
+      "mana_cost": "{2}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP",
+            "SAC",
+            "DISCARD"
+          ],
+          "timing": [
+            "ACTIVATED",
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [
+            "TAP",
+            "LIFE"
+          ],
+          "timing": [
+            "ACTIVATED",
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "SAC_ARTIFACT",
+          "costs": [],
+          "timing": [
+            "TRIGGERED"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Arguel's Blood Fast // Temple of Aclazotz",
+      "cmc": 2.0,
+      "type_line": "Legendary Enchantment // Legendary Land",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "transform",
+      "features": []
+    },
+    {
+      "name": "Grave Peril",
+      "cmc": 2.0,
+      "type_line": "Enchantment",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "When a nonblack creature enters, sacrifice this enchantment. If you do, destroy that creature.",
+      "mana_cost": "{1}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_CREATURE",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "March of the Canonized",
+      "cmc": 2.0,
+      "type_line": "Enchantment",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "When this enchantment enters, create X 1/1 white Vampire creature tokens with lifelink.\nAt the beginning of your upkeep, if your devotion to white and black is seven or greater, create a 4/3 white and black Vampire Demon creature token with flying.",
+      "mana_cost": "{X}{W}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB",
+            "UPKEEP"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB",
+            "UPKEEP"
+          ]
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_DEMON",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Etchings of the Chosen",
+      "cmc": 3.0,
+      "type_line": "Enchantment",
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "oracle_text": "As this enchantment enters, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\n{1}, Sacrifice a creature of the chosen type: Target creature you control gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+      "mana_cost": "{1}{W}{B}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "SAC_CREATURE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Sigarda's Imprisonment",
+      "cmc": 3.0,
+      "type_line": "Enchantment \u2014 Aura",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Enchant creature\nEnchanted creature can't attack or block.\n{4}{W}: Exile enchanted creature. Create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")",
+      "mana_cost": "{2}{W}",
+      "is_land": false,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Wedding Announcement // Wedding Festivity",
+      "cmc": 3.0,
+      "type_line": "Enchantment // Enchantment",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "",
+      "mana_cost": "{2}{W}",
+      "is_land": false,
+      "layout": "transform",
+      "features": []
+    },
+    {
+      "name": "Abandoned Air Temple",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "This land enters tapped unless you control a basic land.\n{T}: Add {W}.\n{3}{W}, {T}: Put a +1/+1 counter on each creature you control.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Bottomless Vault",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "This land enters tapped.\nYou may choose not to untap this land during your untap step.\nAt the beginning of your upkeep, if this land is tapped, put a storage counter on it.\n{T}, Remove any number of storage counters from this land: Add {B} for each storage counter removed this way.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Command Tower",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Goldmire Bridge",
+      "cmc": 0.0,
+      "type_line": "Artifact Land",
+      "color_identity": [
+        "B",
+        "W"
+      ],
+      "oracle_text": "This land enters tapped.\nIndestructible\n{T}: Add {W} or {B}.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "MANA_ROCK",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Obscura Storefront",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "When this land enters, sacrifice it. When you do, search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle and you gain 1 life.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "RAMP",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "LIFE_GAIN",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": [
+            "TRIGGERED",
+            "ETB"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Plains",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "({T}: Add {W}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0.0,
+      "type_line": "Basic Land \u2014 Swamp",
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    },
+    {
+      "name": "Voldaren Estate",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast a Vampire spell.\n{5}, {T}: Create a Blood token. This ability costs {1} less to activate for each Vampire you control. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": [
+        {
+          "feature": "DRAW",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "TOKEN",
+          "costs": [
+            "MANA",
+            "TAP"
+          ],
+          "timing": [
+            "ACTIVATED"
+          ]
+        },
+        {
+          "feature": "LIFE_LOSS",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "SAC",
+          "costs": [],
+          "timing": []
+        },
+        {
+          "feature": "TRIBAL_VAMPIRE",
+          "costs": [],
+          "timing": []
+        }
+      ]
+    },
+    {
+      "name": "Windbrisk Heights",
+      "cmc": 0.0,
+      "type_line": "Land",
+      "color_identity": [
+        "W"
+      ],
+      "oracle_text": "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nThis land enters tapped.\n{T}: Add {W}.\n{W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.",
+      "mana_cost": "",
+      "is_land": true,
+      "layout": "normal",
+      "features": []
+    }
+  ],
+  "illegal_cards": [],
+  "statistics": {
+    "total_cards": 99,
+    "feature_counts": {
+      "LIFE_GAIN": 20,
+      "TRIBAL_VAMPIRE": 30,
+      "TOKEN": 10,
+      "TRIBAL_WIZARD": 4,
+      "TRIBAL_CLERIC": 3,
+      "TRIBAL_WARRIOR": 2,
+      "TRIBAL_ROGUE": 5,
+      "LIFE_LOSS": 10,
+      "DRAW": 10,
+      "SAC": 7,
+      "DEATH_TRIGGER": 5,
+      "TRIBAL_DEMON": 2,
+      "REMOVAL": 4,
+      "TRIBAL_SHAMAN": 1,
+      "TRIBAL_ANGEL": 1,
+      "MANA_SPELL_1": 1,
+      "RAMP": 2,
+      "SAC_CREATURE": 4,
+      "SAC_CREATURE_ARTIFACT_PERMANENT": 1,
+      "BOARD_WIPE": 1,
+      "MANA_ROCK": 3,
+      "SAC_ARTIFACT": 2,
+      "SAC_CREATURE_ARTIFACT": 1
+    },
+    "activated_abilities": 10,
+    "average_activation_friction": 2.3,
+    "x_spells": [
+      "March of the Canonized"
+    ],
+    "x_spell_count": 1,
+    "power_level": {
+      "score": 4.36,
+      "components": {
+        "fast_mana": 9,
+        "card_advantage": 20,
+        "interaction": 7.5,
+        "efficiency": 11.5,
+        "x_spell_scaling": 1.5,
+        "synergy": 15.94
+      },
+      "raw_score": 65.44,
+      "fast_mana_count": 3,
+      "interaction_count": 5,
+      "removal_count": 4,
+      "board_wipe_count": 1,
+      "efficiency_ratio": 0.36
+    }
+  }
+}

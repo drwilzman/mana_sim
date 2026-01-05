@@ -1,0 +1,228 @@
+
+================================================================================
+SIMULATION REPORT - Edgar, Charmed Groom // Edgar Markov's Coffin
+================================================================================
+Generated: 2026-01-05 13:55:04
+Simulations: 10,000 games | Turns Analyzed: 12
+
+================================================================================
+OVERALL PERFORMANCE
+================================================================================
+
+Game State Distribution:
+  Mana Screw:   20.59%  (Unable to cast spells)
+  Mana Flood:   13.05%  (Excess mana wasted)
+  Normal:       66.36%  (Efficient gameplay)
+
+Gameplay Metrics:
+  Average Cards Cast per Turn:     0.92
+  Average Mana Efficiency:         60.0%
+  Average Hand Size:               3.4 cards
+
+Deck Classification:
+  Consistency Rating:  Good
+  Speed Rating:        Slow
+
+================================================================================
+TEMPORAL ANALYSIS
+================================================================================
+
+Early Game (Turns 1-4):
+  Screw Rate:  36.0%
+  Flood Rate:  0.4%
+
+Late Game (Turn 9+):
+  Screw Rate:  16.4%
+  Flood Rate:  30.6%
+
+Peak Performance:
+  Best Turn: Turn 7 (1.16 cards cast on average)
+
+================================================================================
+TURN-BY-TURN BREAKDOWN
+================================================================================
+
+Turn | Screw | Flood | Normal | Avg Cast | Mana Avail | Mana Spent | Efficiency
+-----|-------|-------|--------|----------|------------|------------|------------
+  1  |  80.8 |   1.0 |   18.2 |     0.18 |        1.0 |        0.2 |      18.6%
+  2  |  33.1 |   0.3 |   66.5 |     0.67 |        2.0 |        1.3 |      65.6%
+  3  |  18.1 |   0.3 |   81.7 |     0.83 |        3.0 |        2.3 |      76.9%
+  4  |  11.9 |   0.2 |   87.9 |     0.95 |        3.8 |        3.2 |      84.4%
+  5  |  10.1 |   1.2 |   88.7 |     1.11 |        4.5 |        3.4 |      75.1%
+  6  |   8.8 |   4.5 |   86.7 |     1.14 |        5.1 |        3.8 |      74.2%
+  7  |   8.6 |   9.8 |   81.6 |     1.16 |        5.6 |        3.9 |      69.6%
+  8  |  10.1 |  17.0 |   72.9 |     1.12 |        6.1 |        3.8 |      62.8%
+  9  |  12.7 |  22.4 |   64.9 |     1.06 |        6.5 |        3.7 |      56.8%
+ 10  |  15.0 |  29.0 |   56.0 |     1.00 |        6.9 |        3.5 |      50.6%
+ 11  |  18.4 |  32.7 |   49.0 |     0.95 |        7.3 |        3.4 |      45.7%
+ 12  |  19.5 |  38.3 |   42.2 |     0.92 |        7.7 |        3.3 |      42.3%
+
+================================================================================
+ANALYSIS & RECOMMENDATIONS
+================================================================================
+
+Issues Detected:
+  - Low mana efficiency - mana curve issues
+  - Low cast rate - curve too high or mana issues
+
+Recommendations:
+  - Adjust mana curve to better match land progression
+  - Lower average CMC or add more fast mana
+  - Critical early game issues - prioritize low-cost cards
+
+================================================================================
+EXAMPLE GAME TRACES
+================================================================================
+
+Game 1 - Final Status: OK
+--------------------------------------------------------------------------------
+
+Turn 1: SCREW
+  Cast: 0 cards | Mana: 0/1 | Hand: 6 cards
+  Played: Bottomless Vault
+  Hand: Vengeant Vampire, Orzhov Signet, Abandoned Air Temple, Alley Assailant, Abandoned Air Temple, ... +1 more
+  Battlefield: 1 permanents
+
+Turn 2: OK
+  Cast: 1 cards | Mana: 2/2 | Hand: 5 cards
+  Played: Abandoned Air Temple, Orzhov Signet
+  Hand: Vengeant Vampire, Alley Assailant, Abandoned Air Temple, Abandoned Air Temple, Aven Mindcensor
+  Battlefield: 3 permanents
+
+Turn 3: OK
+  Cast: 1 cards | Mana: 4/4 | Hand: 5 cards
+  Played: Abandoned Air Temple, Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)
+  Hand: Vengeant Vampire, Alley Assailant, Abandoned Air Temple, Aven Mindcensor, Bloodthirsty Aerialist
+  Battlefield: 5 permanents
+
+Turn 4: OK
+  Cast: 1 cards | Mana: 3/5 | Hand: 4 cards
+  Played: Abandoned Air Temple, Alley Assailant
+  Hand: Vengeant Vampire, Aven Mindcensor, Bloodthirsty Aerialist, Bottomless Vault
+  Battlefield: 7 permanents
+
+Turn 5: OK
+  Cast: 1 cards | Mana: 6/6 | Hand: 3 cards
+  Played: Bottomless Vault, Vengeant Vampire
+  Hand: Aven Mindcensor, Bloodthirsty Aerialist, Bottomless Vault
+  Battlefield: 9 permanents
+
+Turn 6: OK
+  Cast: 2 cards | Mana: 6/7 | Hand: 1 cards
+  Played: Bottomless Vault, Aven Mindcensor, Bloodthirsty Aerialist
+  Hand: Sorin Markov
+  Battlefield: 12 permanents
+
+Turn 7: OK
+  Cast: 1 cards | Mana: 6/8 | Hand: 0 cards
+  Played: Abandoned Air Temple, Sorin Markov
+  Battlefield: 14 permanents
+
+Turn 8: FLOOD
+  Cast: 1 cards | Mana: 2/8 | Hand: 0 cards
+  Played: Suspicious Bookcase
+  Battlefield: 15 permanents
+
+Game 2 - Final Status: OK
+--------------------------------------------------------------------------------
+
+Turn 1: OK
+  Cast: 1 cards | Mana: 1/1 | Hand: 6 cards
+  Played: Abandoned Air Temple, Sol Ring
+  Hand: Flash Thompson, Spider-Fan, Desperate Bloodseeker, Bottomless Vault, Bottomless Vault, Crossway Troublemakers, ... +1 more
+  Battlefield: 2 permanents
+
+Turn 2: OK
+  Cast: 1 cards | Mana: 2/3 | Hand: 5 cards
+  Played: Bottomless Vault, Orzhov Signet
+  Hand: Flash Thompson, Spider-Fan, Desperate Bloodseeker, Bottomless Vault, Crossway Troublemakers, Alley Assailant
+  Battlefield: 4 permanents
+
+Turn 3: OK
+  Cast: 1 cards | Mana: 4/5 | Hand: 5 cards
+  Played: Bottomless Vault, Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)
+  Hand: Flash Thompson, Spider-Fan, Desperate Bloodseeker, Crossway Troublemakers, Alley Assailant, Vengeant Vampire
+  Battlefield: 6 permanents
+
+Turn 4: OK
+  Cast: 1 cards | Mana: 6/6 | Hand: 5 cards
+  Played: Abandoned Air Temple, Crossway Troublemakers
+  Hand: Flash Thompson, Spider-Fan, Desperate Bloodseeker, Alley Assailant, Vengeant Vampire, Bottomless Vault
+  Battlefield: 8 permanents
+
+Turn 5: OK
+  Cast: 3 cards | Mana: 7/7 | Hand: 2 cards
+  Played: Bottomless Vault, Flash Thompson, Spider-Fan, Desperate Bloodseeker, Alley Assailant
+  Hand: Vengeant Vampire, Dark Ritual
+  Battlefield: 12 permanents
+
+Turn 6: OK
+  Cast: 1 cards | Mana: 6/8 | Hand: 1 cards
+  Played: Abandoned Air Temple, Vengeant Vampire
+  Hand: Dark Ritual
+  Battlefield: 14 permanents
+
+Turn 7: FLOOD
+  Cast: 1 cards | Mana: 1/9 | Hand: 0 cards
+  Played: Bottomless Vault, Dark Ritual
+  Battlefield: 15 permanents
+
+Turn 8: FLOOD
+  Cast: 1 cards | Mana: 5/9 | Hand: 0 cards
+  Played: Malakir Bloodwitch
+  Battlefield: 16 permanents
+
+Game 3 - Final Status: OK
+--------------------------------------------------------------------------------
+
+Turn 1: SCREW
+  Cast: 0 cards | Mana: 0/1 | Hand: 6 cards
+  Played: Abandoned Air Temple
+  Hand: Desperate Bloodseeker, Aven Mindcensor, Abandoned Air Temple, Abandoned Air Temple, Abandoned Air Temple, ... +1 more
+  Battlefield: 1 permanents
+
+Turn 2: OK
+  Cast: 1 cards | Mana: 2/2 | Hand: 5 cards
+  Played: Abandoned Air Temple, Suspicious Bookcase
+  Hand: Desperate Bloodseeker, Aven Mindcensor, Abandoned Air Temple, Abandoned Air Temple, Crypt Ghast
+  Battlefield: 3 permanents
+
+Turn 3: OK
+  Cast: 1 cards | Mana: 3/3 | Hand: 4 cards
+  Played: Abandoned Air Temple, Aven Mindcensor
+  Hand: Desperate Bloodseeker, Abandoned Air Temple, Crypt Ghast, Abandoned Air Temple
+  Battlefield: 5 permanents
+
+Turn 4: SCREW
+  Cast: 0 cards | Mana: 0/4 | Hand: 4 cards
+  Played: Abandoned Air Temple
+  Hand: Desperate Bloodseeker, Crypt Ghast, Abandoned Air Temple, Command Tower
+  Battlefield: 6 permanents
+
+Turn 5: SCREW
+  Cast: 0 cards | Mana: 0/5 | Hand: 4 cards
+  Played: Abandoned Air Temple
+  Hand: Desperate Bloodseeker, Crypt Ghast, Command Tower, Bottomless Vault
+  Battlefield: 7 permanents
+
+Turn 6: SCREW
+  Cast: 0 cards | Mana: 0/6 | Hand: 4 cards
+  Played: Command Tower
+  Hand: Desperate Bloodseeker, Crypt Ghast, Bottomless Vault, Bottomless Vault
+  Battlefield: 8 permanents
+
+Turn 7: OK
+  Cast: 1 cards | Mana: 4/7 | Hand: 4 cards
+  Played: Bottomless Vault, Edgar, Charmed Groom // Edgar Markov's Coffin (cmdr tax: 0)
+  Hand: Desperate Bloodseeker, Crypt Ghast, Bottomless Vault, Bottomless Vault
+  Battlefield: 10 permanents
+
+Turn 8: OK
+  Cast: 2 cards | Mana: 6/8 | Hand: 2 cards
+  Played: Bottomless Vault, Desperate Bloodseeker, Crypt Ghast
+  Hand: Bottomless Vault, Alley Assailant
+  Battlefield: 13 permanents
+
+================================================================================
+END OF REPORT
+================================================================================

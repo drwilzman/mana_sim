@@ -14,9 +14,8 @@ pub fn hand_cost(hand: &[Card]) -> (u32, HashMap<String, u32>) {
                     *colored.entry(color.clone()).or_insert(0) += 1;
                 }
             }
-            Card::Ramp { generic: g, .. } | Card::Fetch { generic: g, .. } => {
+            Card::Ramp { generic: g, .. } => {
                 generic += *g as u32;
-                // These cards have no colored pips, so skip
             }
             _ => {}
         }
@@ -24,4 +23,3 @@ pub fn hand_cost(hand: &[Card]) -> (u32, HashMap<String, u32>) {
 
     (generic, colored)
 }
-
